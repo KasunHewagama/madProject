@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#190131"
+    android:background="#000000"
 
     tools:context=".MainActivity">
 
@@ -160,9 +160,9 @@
 
         <TextView
             android:id="@+id/textView6"
-            android:layout_width="match_parent"
-            android:layout_height="37dp"
-            android:text="     TextView"
+            android:layout_width="154dp"
+            android:layout_height="wrap_content"
+            android:text="   Time Table"
             android:textColor="#FFD600"
             android:textSize="20sp"
             app:layout_column="1"
