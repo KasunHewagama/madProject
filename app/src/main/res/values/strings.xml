@@ -1,8 +1,7 @@
 <resources>
     <string name="app_name">madProject</string>
-    <string name="workoutHomeWalk">Walking</string>
-    <string name="workoutHomeRun">Running</string>
-    <string name="workoutHomeCycle">Cycling</string>
-    <string name="WorkoutHomeSwim">Swimming</string>
-    <string name="WorkoutHomeWorkout">Workouts</string>
+
+
+
+
 </resources>
