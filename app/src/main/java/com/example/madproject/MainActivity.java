@@ -32,6 +32,14 @@ public class MainActivity extends AppCompatActivity  {
             startActivity(new Intent(MainActivity.this,workoutHomepage.class));
         }
     });
+
+        holiday.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(MainActivity.this,Holiday_UI1.class));
+            }
+        });
+
 //      holiday.setOnClickListener(this);
 //      timetable.setOnClickListener(this);
 //      community.setOnClickListener(this);
