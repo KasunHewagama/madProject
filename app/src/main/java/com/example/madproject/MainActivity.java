@@ -23,8 +23,8 @@ public class MainActivity extends AppCompatActivity  {
       //defining layouts
        work =(Button) findViewById(R.id.button4);
        holiday=(Button) findViewById(R.id.button5);
-      timetable =(Button) findViewById(R.id.button6);
-        community=(Button) findViewById(R.id.button7);
+       timetable =(Button) findViewById(R.id.button6);
+       community=(Button) findViewById(R.id.button7);
 
     work.setOnClickListener(new View.OnClickListener() {
         @Override
@@ -40,34 +40,17 @@ public class MainActivity extends AppCompatActivity  {
             }
         });
 
-//      holiday.setOnClickListener(this);
-//      timetable.setOnClickListener(this);
-//      community.setOnClickListener(this);
+        timetable.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(MainActivity.this,Timetable.class));
+            }
+        });
 
-
-
-    }
-
-
-
-//    public void onClick(View b) {
-//        Intent intent;
-//
-//        switch (b.getId()){
-//            case R.id.button4:intent= new Intent(this,workoutHomepage.class);
-//                                    break;
-//            case R.id.button5:intent= new Intent(this,workoutHomepage.class);
-//                                    break;
-//            case R.id.button6:intent= new Intent(this,workoutHomepage.class);
-//                                    break;
-//            case R.id.button7:intent= new Intent(this,workoutHomepage.class);
-//            default:break;
-//
-//        }
 
 
 
 //    }
 
 
-}
+}}
