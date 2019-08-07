@@ -1,7 +1,9 @@
 <resources>
     <string name="app_name">madProject</string>
-
-
-
+    <string name="textView12">Workout</string>
+    <string name="textView8">Walking</string>
+    <string name="textView9">Running</string>
+    <string name="textView10">Cycling</string>
+    <string name="textView11">Swimming</string>
 
 </resources>
