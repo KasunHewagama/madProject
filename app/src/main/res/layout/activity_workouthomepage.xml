@@ -167,7 +167,7 @@
                 android:layout_height="match_parent"
                 android:text="@string/workoutHomeRun"
                 android:textAlignment="center"
-                android:textColor="@android:color/holo_blue_bright"
+                android:textColor="@android:color/holo_orange_light"
                 android:textSize="36sp"
                 android:textStyle="bold"
                 tools:text="@string/workoutHomeRun" />
