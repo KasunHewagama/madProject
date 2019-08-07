@@ -1,5 +1,13 @@
 <resources>
     <string name="app_name">madProject</string>
+
+    <string name="btn1">Add Course</string>
+    <string name="btn2">Add Exam</string>
+    <string name="btn3">View Result</string>
+    <string name="add_new_course">Add New Course</string>
+    <string name="add_new_exam">Add New Exam</string>
+    <string name="add_new_result">Add New Result</string>
+
     <string name="textView12">Workout</string>
     <string name="textView8">Walking</string>
     <string name="textView9">Running</string>
@@ -9,5 +17,4 @@
     <string name="btnview">View</string>
     <string name="btndone">Done</string>
     <string name="textView13">Walking Workout</string>
-
 </resources>
