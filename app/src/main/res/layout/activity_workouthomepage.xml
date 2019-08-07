@@ -97,12 +97,13 @@
                 android:id="@+id/textView8"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:text="@string/app_name"
+                android:baselineAligned="false"
+                android:text="@string/textView8"
                 android:textAlignment="center"
                 android:textColor="@android:color/holo_orange_light"
                 android:textSize="36sp"
                 android:textStyle="bold"
-                tools:text="@string/app_name" />
+                tools:text="@string/textView8" />
         </LinearLayout>
 
         <LinearLayout
@@ -117,12 +118,13 @@
                 android:id="@+id/textView9"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:text="@string/app_name"
+                android:baselineAligned="false"
+                android:text="@string/textView9"
                 android:textAlignment="center"
                 android:textColor="@android:color/holo_orange_light"
                 android:textSize="36sp"
                 android:textStyle="bold"
-                tools:text="@string/app_name" />
+                tools:text="@string/textView9" />
         </LinearLayout>
 
         <LinearLayout
@@ -137,12 +139,13 @@
                 android:id="@+id/textView10"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:text="@string/app_name"
+                android:baselineAligned="false"
+                android:text="@string/textView10"
                 android:textAlignment="center"
                 android:textColor="@android:color/holo_blue_bright"
                 android:textSize="36sp"
                 android:textStyle="bold"
-                tools:text="@string/app_name" />
+                tools:text="@string/textView10" />
         </LinearLayout>
 
         <LinearLayout
@@ -157,12 +160,13 @@
                 android:id="@+id/textView11"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:text="@string/app_name"
+                android:baselineAligned="false"
+                android:text="@string/textView11"
                 android:textAlignment="center"
                 android:textColor="@android:color/holo_blue_bright"
                 android:textSize="36sp"
                 android:textStyle="bold"
-                tools:text="@string/app_name" />
+                tools:text="@string/textView11" />
         </LinearLayout>
     </androidx.gridlayout.widget.GridLayout>
 
@@ -184,12 +188,12 @@
             android:id="@+id/textView12"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:text="@string/app_name"
+            android:text="@string/textView12"
             android:textAlignment="center"
             android:textSize="36sp"
             android:textStyle="bold"
             app:layout_column="0"
-            app:layout_row="1"
-            tools:text="@string/app_name" />
+            app:layout_row="0"
+            tools:text="@string/textView12" />
     </androidx.gridlayout.widget.GridLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>

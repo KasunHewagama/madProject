@@ -5,5 +5,9 @@
     <string name="textView9">Running</string>
     <string name="textView10">Cycling</string>
     <string name="textView11">Swimming</string>
+    <string name="btnadd">Add</string>
+    <string name="btnview">View</string>
+    <string name="btndone">Done</string>
+    <string name="textView13">Walking Workout</string>
 
 </resources>
