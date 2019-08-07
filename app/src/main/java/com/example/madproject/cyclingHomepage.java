@@ -4,11 +4,11 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
 
-public class workoutHomepage extends AppCompatActivity {
+public class cyclingHomepage extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_workouthomepage);
+        setContentView(R.layout.activity_cycling_homepage);
     }
 }

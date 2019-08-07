@@ -9,7 +9,11 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".workoutHomepage"></activity>
+        <activity android:name=".cyclingHomepage"></activity>
+        <activity android:name=".swimmingHomepage" />
+        <activity android:name=".runningHomepage" />
+        <activity android:name=".walkingHomepage" />
+        <activity android:name=".workoutHomepage" />
         <activity android:name=".Main2Activity" />
         <activity android:name=".MainActivity">
             <intent-filter>
