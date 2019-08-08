@@ -75,6 +75,13 @@
     <string name="addstarttime">Starting Time :</string>
     <string name="addendtime">Ending Time :</string>
     <string name="adddistance">Distance :</string>
+    <string name="viewworkoutplan">View Workout Plan</string>
+    <string name="viewdes">All of Your Plans will be displaying in here..!</string>
+    <string name="btnupdate">UPDATE</string>
+    <string name="btndelete">DELETE</string>
+    <string name="btnworkdone">DONE</string>
+    <string name="title_activity_donned_workout">donnedWorkout</string>
+    <string name="donnedworkoutplan">Donned Workouts</string>
     <string name="subject">Enter a Subject</string>
     <string name="teacher">Enter Teachers Name</string>
     <string name="place">Enter a Place</string>
