@@ -35,6 +35,8 @@
     <string name="viewplandes">View the previously added workout plans..!</string>
     <string name="plandone">Donned Workouts</string>
     <string name="plandonedes">Plans which were done in the past..!</string>
+    <string name="walkworkouttitle">Walking Exercises</string>
+    <string name="walkworkoutdes">Walking is great exercise and can be very beneficial aerobically.</string>
 
 
 </resources>
