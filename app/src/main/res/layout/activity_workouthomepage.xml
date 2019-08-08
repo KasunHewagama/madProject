@@ -93,17 +93,17 @@
             app:layout_column="1"
             app:layout_row="0">
 
-            <TextView
-                android:id="@+id/textView8"
+            <Button
+                android:id="@+id/button11"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:baselineAligned="false"
-                android:text="@string/textView8"
+                android:text="@string/btnWalk"
                 android:textAlignment="center"
                 android:textColor="@android:color/holo_orange_light"
                 android:textSize="36sp"
                 android:textStyle="bold"
-                tools:text="@string/textView8" />
+                android:backgroundTint="@color/cardview_shadow_start_color"
+                tools:text="@string/btnWalk" />
         </LinearLayout>
 
         <LinearLayout
@@ -114,17 +114,17 @@
             app:layout_column="1"
             app:layout_row="1">
 
-            <TextView
-                android:id="@+id/textView9"
+            <Button
+                android:id="@+id/button12"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:baselineAligned="false"
-                android:text="@string/textView9"
+                android:text="@string/btnRun"
                 android:textAlignment="center"
                 android:textColor="@android:color/holo_orange_light"
                 android:textSize="36sp"
                 android:textStyle="bold"
-                tools:text="@string/textView9" />
+                android:backgroundTint="@color/cardview_shadow_start_color"
+                tools:text="@string/btnRun" />
         </LinearLayout>
 
         <LinearLayout
@@ -135,17 +135,17 @@
             app:layout_column="1"
             app:layout_row="2">
 
-            <TextView
-                android:id="@+id/textView10"
+            <Button
+                android:id="@+id/button13"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:baselineAligned="false"
-                android:text="@string/textView10"
+                android:text="@string/btnCycle"
                 android:textAlignment="center"
                 android:textColor="@android:color/holo_blue_bright"
                 android:textSize="36sp"
                 android:textStyle="bold"
-                tools:text="@string/textView10" />
+                android:backgroundTint="@color/cardview_shadow_start_color"
+                tools:text="@string/btnCycle" />
         </LinearLayout>
 
         <LinearLayout
@@ -156,17 +156,17 @@
             app:layout_column="1"
             app:layout_row="3">
 
-            <TextView
-                android:id="@+id/textView11"
+            <Button
+                android:id="@+id/button14"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:baselineAligned="false"
-                android:text="@string/textView11"
+                android:text="@string/btnSwim"
                 android:textAlignment="center"
                 android:textColor="@android:color/holo_blue_bright"
                 android:textSize="36sp"
                 android:textStyle="bold"
-                tools:text="@string/textView11" />
+                android:backgroundTint="@color/cardview_shadow_start_color"
+                tools:text="@string/btnSwim" />
         </LinearLayout>
     </androidx.gridlayout.widget.GridLayout>
 

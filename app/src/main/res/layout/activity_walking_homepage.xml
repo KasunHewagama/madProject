@@ -27,7 +27,8 @@
             android:layout_height="wrap_content"
             app:layout_column="0"
             app:layout_row="0"
-            app:srcCompat="@drawable/walkadd" />
+            app:srcCompat="@drawable/walkadd"
+            tools:srcCompat="@drawable/walkadd" />
     </androidx.gridlayout.widget.GridLayout>
 
     <Button
@@ -69,13 +70,15 @@
             android:id="@+id/imageView13"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            app:srcCompat="@drawable/walkview" />
+            app:srcCompat="@drawable/walkview"
+            tools:srcCompat="@drawable/walkview" />
 
         <ImageView
             android:id="@+id/imageView14"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            app:srcCompat="@drawable/walkview" />
+            app:srcCompat="@drawable/walkview"
+            tools:srcCompat="@drawable/walkview" />
     </LinearLayout>
 
     <Button
@@ -114,7 +117,8 @@
             android:id="@+id/imageView15"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            app:srcCompat="@drawable/walkdone" />
+            app:srcCompat="@drawable/walkdone"
+            tools:srcCompat="@drawable/walkdone" />
     </LinearLayout>
 
     <Button
