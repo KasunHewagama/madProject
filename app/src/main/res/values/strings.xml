@@ -80,17 +80,19 @@
     <string name="btnupdate">UPDATE</string>
     <string name="btndelete">DELETE</string>
     <string name="btnworkdone">DONE</string>
-    <!--<string name="subject">Enter a Subject</string>-->
-    <!--<string name="teacher">Enter Teachers Name</string>-->
-    <!--<string name="place">Enter a Place</string>-->
-    <!--<string name="datetime"><![CDATA[Enter Date & Time]]></string>-->
-    <!--<string name="coursewelcome">Welcome</string>-->
-    <!--<string name="coursedes">Start with creating a new course!-->
-    <!--or check out the View to enable multiple weeks and change the  default course time.</string>-->
-    <!--<string name="examname">Enter Exam Name</string>-->
-    <!--<string name="congrats">Congratulations</string>-->
-    <!--<string name="examdes">Do yoy best!</string>-->
-    <!--<string name="goodluck">Good Luck For Your Exam</string>-->
-    <!--<string name="examcongrat">Congratulations on your excellent success and good luck for more progress. I have complete faith that you’ll pass your exam with good score.</string>-->
-    <!--<string name="timetablehome">Managing your school or university life. Save your timetable and all tasks from courses to exams.</string>-->
+    <string name="title_activity_donned_workout">donnedWorkout</string>
+    <string name="donnedworkoutplan">Donned Workouts</string>
+    <string name="subject">Enter a Subject</string>
+    <string name="teacher">Enter Teachers Name</string>
+    <string name="place">Enter a Place</string>
+    <string name="datetime"><![CDATA[Enter Date & Time]]></string>
+    <string name="coursewelcome">Welcome</string>
+    <string name="coursedes">Start with creating a new course!
+    or check out the View to enable multiple weeks and change the  default course time.</string>
+    <string name="examname">Enter Exam Name</string>
+    <string name="congrats">Congratulations</string>
+    <string name="examdes">Do yoy best!</string>
+    <string name="goodluck">Good Luck For Your Exam</string>
+    <string name="examcongrat">Congratulations on your excellent success and good luck for more progress. I have complete faith that you’ll pass your exam with good score.</string>
+    <string name="timetablehome">Managing your school or university life. Save your timetable and all tasks from courses to exams.</string>
 </resources>
