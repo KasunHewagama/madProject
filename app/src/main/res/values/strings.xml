@@ -29,6 +29,10 @@
     <string name="nocourse">No Course Added Yet</string>
     <string name="workouthome">Workouts</string>
     <string name="walkhome">Walking Workout</string>
+    <string name="addplan">Add Plan</string>
+    <string name="addplandes">Add Workout Planing..!</string>
+    <string name="viewplan">View Plan</string>
+    <string name="viewplandes">View the previously added workout plans..!</string>
 
 
 </resources>
