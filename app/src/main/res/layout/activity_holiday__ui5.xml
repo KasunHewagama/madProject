@@ -4,7 +4,9 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Holiday_UI3">
+    tools:context=".Holiday_UI5">
+    tools:context=".Holiday_UI4">
+
 
     <LinearLayout
         android:id="@+id/linearLayout11"
@@ -32,7 +34,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginRight="250dp"
-                app:srcCompat="@drawable/worker" />
+                app:srcCompat="@drawable/photocamera" />
 
             <TextView
                 android:id="@+id/textView8"
@@ -41,10 +43,10 @@
                 android:layout_marginLeft="120dp"
                 android:layout_marginTop="10dp"
                 android:paddingTop="20dp"
-                android:text="@string/plan1"
+                android:text="@string/memo1"
                 android:textAlignment="center"
                 android:textSize="25sp"
-                tools:text="@string/plan1" />
+                tools:text="@string/memo1" />
         </androidx.cardview.widget.CardView>
     </LinearLayout>
 
@@ -73,7 +75,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginRight="250dp"
-                app:srcCompat="@drawable/worker" />
+                app:srcCompat="@drawable/photocamera" />
 
             <TextView
                 android:id="@+id/textView10"
@@ -82,10 +84,10 @@
                 android:layout_marginLeft="120dp"
                 android:layout_marginTop="10dp"
                 android:paddingTop="20dp"
-                android:text="@string/plan3"
+                android:text="@string/memo3"
                 android:textAlignment="center"
                 android:textSize="25sp"
-                tools:text="@string/plan3" />
+                tools:text="@string/memo3" />
         </androidx.cardview.widget.CardView>
     </LinearLayout>
 
@@ -115,7 +117,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginRight="250dp"
-                app:srcCompat="@drawable/worker" />
+                app:srcCompat="@drawable/photocamera" />
 
             <TextView
                 android:id="@+id/textView9"
@@ -124,11 +126,11 @@
                 android:layout_marginLeft="120dp"
                 android:layout_marginTop="10dp"
                 android:paddingTop="20dp"
-                android:text="@string/plan2"
+                android:text="@string/memo2"
                 android:textAlignment="center"
                 android:textSize="25sp"
                 android:textStyle="bold"
-                tools:text="@string/plan2" />
+                tools:text="@string/memo2" />
         </androidx.cardview.widget.CardView>
     </LinearLayout>
 
@@ -154,7 +156,7 @@
         android:layout_height="137dp"
         android:layout_marginStart="8dp"
         android:layout_marginBottom="8dp"
-        android:background="@drawable/ui1h"
+        android:background="@drawable/memo"
         android:orientation="vertical"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -170,13 +172,12 @@
             android:layout_marginLeft="10dp"
             android:layout_marginTop="90dp"
             android:fontFamily="sans-serif-condensed"
-            android:text="@string/view"
+            android:text="@string/MEMO"
             android:textColor="@color/lightgray"
             android:textSize="25sp"
             android:textStyle="normal|bold"
-            tools:text="@string/view" />
+            tools:text="@string/MEMO" />
 
     </LinearLayout>
-
 
 </androidx.constraintlayout.widget.ConstraintLayout>

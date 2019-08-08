@@ -42,7 +42,7 @@ public class walkingHomepage extends AppCompatActivity  implements View.OnClickL
             case R.id.cardId7: intent02 = new Intent(this,donnedWorkout.class);
                                     startActivity(intent02);
                                       break;
-
+            default:                  break;
         }
 
     }

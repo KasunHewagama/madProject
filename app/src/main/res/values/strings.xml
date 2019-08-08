@@ -51,6 +51,8 @@
     <string name="swimworkouttitle">Swimming Exercises</string>
     <string name="swimworkoutdes">Swimming is the self-propulsion of a person through water, usually for recreation, sport, exercise, or survival.</string>
     <string name="searchfr">Lets Search Your Friends!</string>
+
+
     <string name="input1">Plan Name:</string>
     <string name="input2">StartingPoint:</string>
     <string name="input3">Destination:</string>
@@ -112,4 +114,13 @@
     <string name="phoneno">Phone</string>
     <string name="signupbt">SignUp</string>
     <string name="planholiday">Plan and Shedule What are you going to do in your holidays</string>
+    <string name="Slocation">StartingLocation:</string>
+    <string name="Elocation">Destination:</string>
+    <string name="MEMORIES1">DONE_WORKOUT1</string>
+    <string name="memo1">DoneWork1</string>
+    <string name="memo2">DoneWork2</string>
+    <string name="memo3">DoneWork3</string>
+    <string name="MEMO">Memories</string>
+    <string name="workouttitle">Necessary Workouts</string>
+    <string name="workoutdes">Exercising causes the body to make chemicals that can help a person to feel good.</string>
 </resources>

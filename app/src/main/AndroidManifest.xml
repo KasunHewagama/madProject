@@ -19,6 +19,8 @@
         <activity android:name=".shareactivity" />
         <activity android:name=".newaddresults" />
         <activity android:name=".addPlan" />
+        <activity android:name=".Holiday_UI5"></activity>
+        <activity android:name=".newaddresults" />
         <activity android:name=".newaddcourse" />
         <activity android:name=".newaddexam" />
         <activity android:name=".timetable" />

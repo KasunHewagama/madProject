@@ -15,7 +15,7 @@ public class Holiday_UI3 extends AppCompatActivity implements View.OnClickListen
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_holiday__ui3);
 
-        PVcd1 = (CardView) findViewById(R.id.VP1);
+        PVcd1 = (CardView) findViewById(R.id.VM1);
         PVcd2 = (CardView) findViewById(R.id.VP2);
         PVcd3 = (CardView) findViewById(R.id.VP3);
 
@@ -29,7 +29,7 @@ public class Holiday_UI3 extends AppCompatActivity implements View.OnClickListen
         Intent I;
 
         switch (view.getId()) {
-            case R.id.VP1:
+            case R.id.VM1:
                 I = new Intent(this, Holiday_UI4.class);
                 startActivity(I);
                 break;
