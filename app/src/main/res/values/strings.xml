@@ -62,4 +62,8 @@
     <string name="plan1">Plan1</string>
     <string name="plan2">Plan2</string>
     <string name="plan3">Plan3</string>
+    <string name="subject">Enter a Subject</string>
+    <string name="teacher">Enter Teachers Name</string>
+    <string name="place">Enter a Place</string>
+    <string name="datetime"><![CDATA[Enter Date & Time]]></string>
 </resources>

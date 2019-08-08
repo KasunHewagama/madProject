@@ -48,7 +48,7 @@
         app:layout_constraintVertical_bias="0.351">
 
         <androidx.cardview.widget.CardView
-            android:id="@+id/walk"
+            android:id="@+id/f"
             android:layout_width="350dp"
             android:layout_height="90dp"
             android:layout_gravity="center"
