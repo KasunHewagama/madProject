@@ -8,7 +8,7 @@
 
     <LinearLayout
         android:id="@+id/linearLayout8"
-        android:layout_width="414dp"
+        android:layout_width="412dp"
         android:layout_height="137dp"
         android:layout_marginStart="8dp"
         android:layout_marginBottom="8dp"
@@ -28,7 +28,7 @@
             android:layout_marginLeft="10dp"
             android:layout_marginTop="90dp"
             android:fontFamily="sans-serif-condensed"
-            android:text="@string/workouthomename"
+            android:text="@string/workouthome"
             android:textColor="@color/lightgray"
             android:textSize="30sp"
             android:textStyle="normal" />
@@ -48,14 +48,15 @@
         app:layout_constraintVertical_bias="0.351">
 
         <androidx.cardview.widget.CardView
+            android:id="@+id/walk"
             android:layout_width="350dp"
+            android:layout_height="90dp"
+            android:layout_gravity="center"
             android:layout_marginLeft="25dp"
             android:layout_marginRight="25dp"
-            android:layout_height="90dp"
             android:clickable="true"
-            android:layout_gravity="center"
-            app:cardCornerRadius="10dp"
-            android:foreground="?android:attr/selectableItemBackground">
+            android:foreground="?android:attr/selectableItemBackground"
+            app:cardCornerRadius="10dp">
 
             <ImageView
                 android:id="@+id/imageView6"
@@ -65,7 +66,7 @@
 
             <TextView
                 android:id="@+id/textView6"
-                android:layout_width="284dp"
+                android:layout_width="230dp"
                 android:layout_height="match_parent"
                 android:layout_marginLeft="110dp"
                 android:paddingTop="15dp"
@@ -91,6 +92,7 @@
         app:layout_constraintVertical_bias="0.536">
 
         <androidx.cardview.widget.CardView
+            android:id="@+id/run"
             android:layout_width="350dp"
             android:layout_marginLeft="25dp"
             android:layout_marginRight="25dp"
@@ -108,7 +110,7 @@
 
             <TextView
                 android:id="@+id/textView7"
-                android:layout_width="284dp"
+                android:layout_width="230dp"
                 android:layout_height="match_parent"
                 android:layout_marginLeft="110dp"
                 android:paddingTop="15dp"
@@ -134,7 +136,7 @@
         app:layout_constraintVertical_bias="0.722">
 
         <androidx.cardview.widget.CardView
-
+            android:id="@+id/cycle"
             android:layout_width="350dp"
             android:layout_marginLeft="25dp"
             android:layout_marginRight="25dp"
@@ -152,7 +154,7 @@
 
             <TextView
                 android:id="@+id/textView8"
-                android:layout_width="284dp"
+                android:layout_width="230dp"
                 android:layout_height="match_parent"
                 android:layout_marginLeft="110dp"
                 android:paddingTop="15dp"
@@ -178,6 +180,7 @@
         app:layout_constraintVertical_bias="0.909">
 
         <androidx.cardview.widget.CardView
+            android:id="@+id/swim"
             android:layout_width="350dp"
             android:layout_marginLeft="25dp"
             android:layout_marginRight="25dp"
@@ -195,7 +198,7 @@
 
             <TextView
                 android:id="@+id/textView9"
-                android:layout_width="284dp"
+                android:layout_width="230dp"
                 android:layout_height="match_parent"
                 android:layout_marginLeft="110dp"
                 android:paddingTop="15dp"
@@ -208,181 +211,4 @@
         </androidx.cardview.widget.CardView>
     </LinearLayout>
 
-
-    <!--<androidx.gridlayout.widget.GridLayout-->
-        <!--android:id="@+id/gridLayout3"-->
-        <!--android:layout_width="wrap_content"-->
-        <!--android:layout_height="wrap_content"-->
-        <!--android:layout_marginStart="16dp"-->
-        <!--android:layout_marginTop="16dp"-->
-        <!--android:layout_marginEnd="16dp"-->
-        <!--android:layout_marginBottom="16dp"-->
-        <!--app:layout_constraintBottom_toBottomOf="parent"-->
-        <!--app:layout_constraintEnd_toEndOf="parent"-->
-        <!--app:layout_constraintStart_toStartOf="parent"-->
-        <!--app:layout_constraintTop_toTopOf="parent"-->
-        <!--app:layout_constraintVertical_bias="1.0">-->
-
-        <!--<LinearLayout-->
-            <!--android:layout_width="100dp"-->
-            <!--android:layout_height="100dp"-->
-            <!--android:layout_margin="12dp"-->
-            <!--android:orientation="vertical"-->
-            <!--app:layout_column="0"-->
-            <!--app:layout_row="0">-->
-
-            <!--<ImageView-->
-                <!--android:id="@+id/imageView2"-->
-                <!--android:layout_width="match_parent"-->
-                <!--android:layout_height="wrap_content"-->
-                <!--android:contentDescription="TODO"-->
-                <!--app:srcCompat="@drawable/walkhome" />-->
-        <!--</LinearLayout>-->
-
-        <!--<LinearLayout-->
-            <!--android:layout_width="100dp"-->
-            <!--android:layout_height="100dp"-->
-            <!--android:layout_margin="12dp"-->
-            <!--android:orientation="vertical"-->
-            <!--app:layout_column="0"-->
-            <!--app:layout_row="1">-->
-
-            <!--<ImageView-->
-                <!--android:id="@+id/imageView3"-->
-                <!--android:layout_width="match_parent"-->
-                <!--android:layout_height="wrap_content"-->
-                <!--android:contentDescription="TODO"-->
-                <!--app:srcCompat="@drawable/runhome" />-->
-        <!--</LinearLayout>-->
-
-        <!--<LinearLayout-->
-            <!--android:layout_width="100dp"-->
-            <!--android:layout_height="100dp"-->
-            <!--android:layout_margin="12dp"-->
-            <!--android:orientation="vertical"-->
-            <!--app:layout_column="0"-->
-            <!--app:layout_row="2">-->
-
-            <!--<ImageView-->
-                <!--android:id="@+id/imageView4"-->
-                <!--android:layout_width="match_parent"-->
-                <!--android:layout_height="wrap_content"-->
-                <!--android:contentDescription="TODO"-->
-                <!--app:srcCompat="@drawable/cyclehome"/>-->
-        <!--</LinearLayout>-->
-
-        <!--<LinearLayout-->
-            <!--android:layout_width="100dp"-->
-            <!--android:layout_height="100dp"-->
-            <!--android:layout_margin="12dp"-->
-            <!--android:orientation="vertical"-->
-            <!--app:layout_column="0"-->
-            <!--app:layout_row="3">-->
-
-            <!--<ImageView-->
-                <!--android:id="@+id/imageView5"-->
-                <!--android:layout_width="match_parent"-->
-                <!--android:layout_height="wrap_content"-->
-                <!--android:contentDescription="TODO"-->
-                <!--app:srcCompat="@drawable/swimhome" />-->
-        <!--</LinearLayout>-->
-
-        <!--<LinearLayout-->
-            <!--android:layout_width="252dp"-->
-            <!--android:layout_height="100dp"-->
-            <!--android:layout_margin="12dp"-->
-            <!--android:orientation="vertical"-->
-            <!--app:layout_column="1"-->
-            <!--app:layout_row="0">-->
-
-            <!--<Button-->
-                <!--android:id="@+id/button11"-->
-                <!--android:layout_width="match_parent"-->
-                <!--android:layout_height="match_parent"-->
-                <!--android:text="@string/btnWalk"-->
-                <!--android:textAlignment="center"-->
-                <!--android:textColor="@android:color/holo_orange_light"-->
-                <!--android:textSize="36sp"-->
-                <!--android:textStyle="bold"-->
-                <!--android:backgroundTint="@color/cardview_shadow_start_color"-->
-                <!--tools:text="@string/btnWalk" />-->
-        <!--</LinearLayout>-->
-
-        <!--<LinearLayout-->
-            <!--android:layout_width="252dp"-->
-            <!--android:layout_height="100dp"-->
-            <!--android:layout_margin="12dp"-->
-            <!--android:orientation="vertical"-->
-            <!--app:layout_column="1"-->
-            <!--app:layout_row="1">-->
-
-            <!--<Button-->
-                <!--android:id="@+id/button12"-->
-                <!--android:layout_width="match_parent"-->
-                <!--android:layout_height="match_parent"-->
-                <!--android:text="@string/btnRun"-->
-                <!--android:textAlignment="center"-->
-                <!--android:textColor="@android:color/holo_orange_light"-->
-                <!--android:textSize="36sp"-->
-                <!--android:textStyle="bold"-->
-                <!--android:backgroundTint="@color/cardview_shadow_start_color"-->
-                <!--tools:text="@string/btnRun" />-->
-        <!--</LinearLayout>-->
-
-        <!--<LinearLayout-->
-            <!--android:layout_width="252dp"-->
-            <!--android:layout_height="100dp"-->
-            <!--android:layout_margin="12dp"-->
-            <!--android:orientation="vertical"-->
-            <!--app:layout_column="1"-->
-            <!--app:layout_row="2">-->
-
-            <!--<Button-->
-                <!--android:id="@+id/button13"-->
-                <!--android:layout_width="match_parent"-->
-                <!--android:layout_height="match_parent"-->
-                <!--android:text="@string/btnCycle"-->
-                <!--android:textAlignment="center"-->
-                <!--android:textColor="@android:color/holo_blue_bright"-->
-                <!--android:textSize="36sp"-->
-                <!--android:textStyle="bold"-->
-                <!--android:backgroundTint="@color/cardview_shadow_start_color"-->
-                <!--tools:text="@string/btnCycle" />-->
-        <!--</LinearLayout>-->
-
-        <!--<LinearLayout-->
-            <!--android:layout_width="252dp"-->
-            <!--android:layout_height="100dp"-->
-            <!--android:layout_margin="12dp"-->
-            <!--android:orientation="vertical"-->
-            <!--app:layout_column="1"-->
-            <!--app:layout_row="3">-->
-
-            <!--<Button-->
-                <!--android:id="@+id/button14"-->
-                <!--android:layout_width="match_parent"-->
-                <!--android:layout_height="match_parent"-->
-                <!--android:text="@string/btnSwim"-->
-                <!--android:textAlignment="center"-->
-                <!--android:textColor="@android:color/holo_blue_bright"-->
-                <!--android:textSize="36sp"-->
-                <!--android:textStyle="bold"-->
-                <!--android:backgroundTint="@color/cardview_shadow_start_color"-->
-                <!--tools:text="@string/btnSwim" />-->
-        <!--</LinearLayout>-->
-    <!--</androidx.gridlayout.widget.GridLayout>-->
-
-    <!--<androidx.gridlayout.widget.GridLayout-->
-        <!--android:layout_width="379dp"-->
-        <!--android:layout_height="101dp"-->
-        <!--android:layout_marginStart="16dp"-->
-        <!--android:layout_marginTop="16dp"-->
-        <!--android:layout_marginEnd="16dp"-->
-        <!--android:layout_marginBottom="16dp"-->
-        <!--app:layout_constraintBottom_toTopOf="@+id/gridLayout3"-->
-        <!--app:layout_constraintEnd_toEndOf="parent"-->
-        <!--app:layout_constraintHorizontal_bias="0.0"-->
-        <!--app:layout_constraintStart_toStartOf="parent"-->
-        <!--app:layout_constraintTop_toTopOf="parent"-->
-        <!--app:layout_constraintVertical_bias="1.0"/>-->
 </androidx.constraintlayout.widget.ConstraintLayout>

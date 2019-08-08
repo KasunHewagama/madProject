@@ -1,31 +1,56 @@
 package com.example.madproject;
 
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.cardview.widget.CardView;
 
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
-import android.widget.Button;
 
-public class workoutHomepage extends AppCompatActivity {
 
-   // private Button run,walk,cycle,swim;
+
+public class workoutHomepage extends AppCompatActivity implements View.OnClickListener {
+
+   private CardView run,walk,cycle,swim;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_workouthomepage);
 
-        //define layouts
-//        run = (Button) findViewById(R.id.button11);
-//        walk = (Button) findViewById(R.id.button12);
-//        cycle = (Button) findViewById(R.id.button13);
-//        swim = (Button) findViewById(R.id.button14);
+        //assign variables
+        run = (CardView) findViewById(R.id.walk);
+        walk = (CardView) findViewById(R.id.run);
+        cycle = (CardView) findViewById(R.id.cycle);
+        swim = (CardView) findViewById(R.id.swim);
 
-//        run.setOnClickListener(new View.OnClickListener() {
-//            @Override
-//            public void onClick(View view) {
-//                startActivity(new Intent(workoutHomepage.this,walkingHomepage.class));
-//            }
-//        });
+        //define clicklistner method to each page
+        run.setOnClickListener(this);
+        walk.setOnClickListener(this);
+        cycle.setOnClickListener(this);
+        swim.setOnClickListener(this);
+
+    }
+
+    @Override
+    public void onClick(View view) {
+
+        Intent intent01;
+
+        switch (view.getId()){
+            case R.id.walk: intent01 = new Intent(this,walkingHomepage.class);
+                                startActivity(intent01);
+                                break;
+            case R.id.run: intent01 = new Intent(this,runningHomepage.class);
+                                startActivity(intent01);
+                                break;
+            case R.id.cycle: intent01 = new Intent(this,cyclingHomepage.class);
+                                startActivity(intent01);
+                                break;
+            case R.id.swim: intent01 = new Intent(this,swimmingHomepage.class);
+                                startActivity(intent01);
+                                break;
+            default:    break;
+        }
+
     }
 }
