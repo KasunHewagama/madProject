@@ -18,7 +18,7 @@ public class workoutHomepage extends AppCompatActivity implements View.OnClickLi
         setContentView(R.layout.activity_workouthomepage);
 
         //assign variables
-        run = (CardView) findViewById(R.id.f);
+        run = (CardView) findViewById(R.id.walk);
         walk = (CardView) findViewById(R.id.run);
         cycle = (CardView) findViewById(R.id.cycle);
         swim = (CardView) findViewById(R.id.swim);
@@ -37,7 +37,7 @@ public class workoutHomepage extends AppCompatActivity implements View.OnClickLi
         Intent intent01;
 
         switch (view.getId()){
-            case R.id.f: intent01 = new Intent(this,walkingHomepage.class);
+            case R.id.walk: intent01 = new Intent(this,walkingHomepage.class);
                                 startActivity(intent01);
                                 break;
             case R.id.run: intent01 = new Intent(this,runningHomepage.class);
