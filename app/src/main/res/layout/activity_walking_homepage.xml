@@ -25,13 +25,14 @@
             android:id="@+id/textView4"
             android:layout_width="215dp"
             android:layout_height="45dp"
-            android:layout_marginLeft="10dp"
+            android:layout_marginLeft="@dimen/default_gap"
             android:layout_marginTop="90dp"
-            android:fontFamily="sans-serif-condensed"
+            android:textAlignment="center"
+            android:fontFamily="sans-serif-medium"
             android:text="@string/walkhome"
             android:textColor="@color/lightgray"
-            android:textSize="30sp"
-            android:textStyle="normal" />
+            android:textSize="25sp"
+            android:textStyle="normal|bold" />
     </LinearLayout>
 
     <LinearLayout
