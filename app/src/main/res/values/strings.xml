@@ -68,4 +68,8 @@
     <string name="plan1">Plan1</string>
     <string name="plan2">Plan2</string>
     <string name="plan3">Plan3</string>
+    <string name="CAL">Starting Date:</string>
+    <string name="calview">Your date</string>
+    <string name="enddate">Ending Date</string>
+    <string name="endtextview">Your date</string>
 </resources>

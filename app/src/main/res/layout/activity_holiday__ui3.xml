@@ -43,7 +43,7 @@
                 android:paddingTop="20dp"
                 android:text="@string/plan1"
                 android:textAlignment="center"
-                android:textSize="36sp"
+                android:textSize="25sp"
                 tools:text="@string/plan1" />
         </androidx.cardview.widget.CardView>
     </LinearLayout>
@@ -84,7 +84,7 @@
                 android:paddingTop="20dp"
                 android:text="@string/plan3"
                 android:textAlignment="center"
-                android:textSize="36sp"
+                android:textSize="25sp"
                 tools:text="@string/plan3" />
         </androidx.cardview.widget.CardView>
     </LinearLayout>
@@ -126,7 +126,8 @@
                 android:paddingTop="20dp"
                 android:text="@string/plan2"
                 android:textAlignment="center"
-                android:textSize="36sp"
+                android:textSize="25sp"
+                android:textStyle="bold"
                 tools:text="@string/plan2" />
         </androidx.cardview.widget.CardView>
     </LinearLayout>
@@ -171,8 +172,8 @@
             android:fontFamily="sans-serif-condensed"
             android:text="@string/view"
             android:textColor="@color/lightgray"
-            android:textSize="36sp"
-            android:textStyle="normal"
+            android:textSize="25sp"
+            android:textStyle="normal|bold"
             tools:text="@string/view" />
 
     </LinearLayout>

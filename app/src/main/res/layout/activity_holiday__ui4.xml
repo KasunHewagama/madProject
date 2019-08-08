@@ -29,8 +29,8 @@
             android:fontFamily="sans-serif-condensed"
             android:text="@string/HHoliday"
             android:textColor="@color/lightgray"
-            android:textSize="36sp"
-            android:textStyle="normal" />
+            android:textSize="25sp"
+            android:textStyle="normal|bold" />
 
     </LinearLayout>
 
