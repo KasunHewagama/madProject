@@ -4,7 +4,7 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
 
-public class Timetable extends AppCompatActivity {
+public class timetable extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
