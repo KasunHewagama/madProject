@@ -103,7 +103,7 @@
             android:layout_height="190dp"
             android:layout_margin="10dp"
             android:clickable="true"
-            app:cardCornerRadius="10dp"   
+            app:cardCornerRadius="10dp"
 
             android:foreground="?android:attr/selectableItemBackground">
 
