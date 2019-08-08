@@ -8,43 +8,33 @@
 
     <androidx.gridlayout.widget.GridLayout
         android:id="@+id/gridLayout6"
-        android:layout_width="410dp"
-        android:layout_height="728dp"
+        android:layout_width="412dp"
+        android:layout_height="843dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.0">
-
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:orientation="horizontal"
-            app:layout_column="0"
-            app:layout_row="0" />
-    </androidx.gridlayout.widget.GridLayout>
+        app:layout_constraintVertical_bias="0.666" />
 
     <TextView
         android:id="@+id/textView17"
-        android:layout_width="187dp"
-        android:layout_height="46dp"
-        android:layout_marginStart="8dp"
-        android:layout_marginEnd="8dp"
+        android:layout_width="198dp"
+        android:layout_height="43dp"
+        android:layout_marginStart="4dp"
         android:layout_marginBottom="8dp"
-        android:text="Plan Name:"
+        android:text="@string/input1"
         android:textSize="30sp"
         app:layout_constraintBottom_toBottomOf="@+id/gridLayout6"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@+id/gridLayout6"
-        app:layout_constraintVertical_bias="0.142" />
+        app:layout_constraintVertical_bias="0.303"
+        tools:text="@string/input1" />
 
     <EditText
         android:id="@+id/editText"
-        android:layout_width="219dp"
-        android:layout_height="45dp"
+        android:layout_width="198dp"
+        android:layout_height="44dp"
         android:layout_marginStart="8dp"
         android:layout_marginTop="16dp"
         android:layout_marginBottom="8dp"
@@ -53,64 +43,59 @@
         android:textSize="30sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.994"
-        app:layout_constraintStart_toStartOf="@+id/textView17"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toEndOf="@+id/textView17"
         app:layout_constraintTop_toTopOf="@+id/gridLayout6"
-        app:layout_constraintVertical_bias="0.12" />
+        app:layout_constraintVertical_bias="0.288" />
 
     <TextView
         android:id="@+id/textView18"
-        android:layout_width="190dp"
-        android:layout_height="45dp"
-        android:layout_marginStart="8dp"
+        android:layout_width="206dp"
+        android:layout_height="53dp"
         android:layout_marginEnd="8dp"
         android:layout_marginBottom="8dp"
-        android:text="Starting point:"
+        android:text="@string/input2"
         android:textSize="30sp"
         app:layout_constraintBottom_toBottomOf="@+id/gridLayout6"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintEnd_toStartOf="@+id/editText2"
+        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@+id/gridLayout6"
-        app:layout_constraintVertical_bias="0.259" />
+        app:layout_constraintVertical_bias="0.398"
+        tools:text="@string/input2" />
 
     <EditText
         android:id="@+id/editText2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="8dp"
+        android:layout_width="191dp"
+        android:layout_height="55dp"
         android:layout_marginTop="8dp"
         android:layout_marginBottom="8dp"
         android:ems="10"
         android:inputType="textPersonName"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="@+id/gridLayout6"
-        app:layout_constraintHorizontal_bias="1.0"
-        app:layout_constraintStart_toStartOf="@+id/gridLayout6"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.249" />
+        app:layout_constraintVertical_bias="0.393" />
 
     <TextView
         android:id="@+id/textView19"
-        android:layout_width="193dp"
-        android:layout_height="51dp"
+        android:layout_width="179dp"
+        android:layout_height="50dp"
         android:layout_marginStart="8dp"
         android:layout_marginTop="8dp"
-        android:layout_marginEnd="8dp"
         android:layout_marginBottom="8dp"
-        android:text="Destination:"
+        android:text="@string/input3"
         android:textSize="30sp"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@+id/gridLayout6"
-        app:layout_constraintVertical_bias="0.37" />
+        app:layout_constraintVertical_bias="0.498"
+        tools:text="@string/input3" />
 
     <EditText
         android:id="@+id/editText3"
-        android:layout_width="205dp"
-        android:layout_height="52dp"
+        android:layout_width="193dp"
+        android:layout_height="48dp"
         android:layout_marginStart="8dp"
         android:layout_marginEnd="8dp"
         android:layout_marginBottom="8dp"
@@ -120,120 +105,41 @@
         app:layout_constraintBottom_toBottomOf="@+id/gridLayout6"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="1.0"
-        app:layout_constraintStart_toStartOf="@+id/gridLayout6"
+        app:layout_constraintStart_toEndOf="@+id/textView19"
         app:layout_constraintTop_toTopOf="@+id/gridLayout6"
-        app:layout_constraintVertical_bias="0.38" />
-
-    <androidx.gridlayout.widget.GridLayout
-        android:id="@+id/gridLayout7"
-        android:layout_width="413dp"
-        android:layout_height="88dp"
-        android:layout_marginStart="8dp"
-        android:layout_marginTop="8dp"
-        android:layout_marginEnd="8dp"
-        android:layout_marginBottom="8dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.444"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/gridLayout6"
-        app:layout_constraintVertical_bias="0.499" />
+        app:layout_constraintVertical_bias="0.504" />
 
     <EditText
         android:id="@+id/editText5"
-        android:layout_width="196dp"
-        android:layout_height="64dp"
-        android:layout_marginStart="8dp"
+        android:layout_width="193dp"
+        android:layout_height="58dp"
         android:layout_marginTop="8dp"
+        android:layout_marginEnd="20dp"
         android:layout_marginBottom="8dp"
         android:ems="10"
         android:inputType="date"
-        android:text="StartDate"
+        android:text="@string/input4"
+        android:textSize="30sp"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="@+id/gridLayout7"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="@+id/gridLayout7"
+        app:layout_constraintEnd_toStartOf="@+id/editText6"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.518" />
+        app:layout_constraintVertical_bias="0.615"
+        tools:text="@string/input4" />
 
     <EditText
         android:id="@+id/editText6"
-        android:layout_width="195dp"
-        android:layout_height="64dp"
-        android:layout_marginEnd="8dp"
+        android:layout_width="199dp"
+        android:layout_height="55dp"
         android:layout_marginBottom="8dp"
         android:ems="10"
         android:inputType="time"
-        android:text="Time"
+        android:text="@string/inputST"
+        android:textSize="30sp"
         app:layout_constraintBottom_toBottomOf="@+id/gridLayout6"
-        app:layout_constraintEnd_toEndOf="@+id/gridLayout7"
-        app:layout_constraintHorizontal_bias="0.99"
-        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/gridLayout6"
         app:layout_constraintTop_toTopOf="@+id/gridLayout6"
-        app:layout_constraintVertical_bias="0.527" />
-
-    <androidx.gridlayout.widget.GridLayout
-        android:id="@+id/gridLayout9"
-        android:layout_width="384dp"
-        android:layout_height="66dp"
-        android:layout_marginBottom="8dp"
-        app:layout_constraintBottom_toBottomOf="@+id/gridLayout6"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.407"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/gridLayout6"
-        app:layout_constraintVertical_bias="0.668">
-
-    </androidx.gridlayout.widget.GridLayout>
-
-    <LinearLayout
-        android:layout_width="192dp"
-        android:layout_height="60dp"
-        android:layout_marginStart="8dp"
-        android:layout_marginTop="8dp"
-        android:layout_marginBottom="8dp"
-        android:orientation="horizontal"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="@+id/gridLayout7"
-        app:layout_constraintHorizontal_bias="0.014"
-        app:layout_constraintStart_toStartOf="@+id/gridLayout7"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.654">
-
-        <EditText
-            android:id="@+id/editText7"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:layout_weight="1"
-            android:ems="10"
-            android:inputType="date"
-            android:text="Ending Date" />
-    </LinearLayout>
-
-    <LinearLayout
-        android:layout_width="193dp"
-        android:layout_height="61dp"
-        android:layout_marginStart="8dp"
-        android:layout_marginTop="8dp"
-        android:layout_marginEnd="16dp"
-        android:layout_marginBottom="8dp"
-        android:orientation="horizontal"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
-        app:layout_constraintStart_toStartOf="@+id/editText5"
-        app:layout_constraintTop_toTopOf="@+id/gridLayout6"
-        app:layout_constraintVertical_bias="0.655">
-
-        <EditText
-            android:id="@+id/editText8"
-            android:layout_width="wrap_content"
-            android:layout_height="match_parent"
-            android:layout_weight="1"
-            android:ems="10"
-            android:inputType="time"
-            android:text="Time" />
-    </LinearLayout>
+        app:layout_constraintVertical_bias="0.616"
+        tools:text="@string/inputST" />
 
     <Button
         android:id="@+id/button"
@@ -249,10 +155,10 @@
         android:textSize="18sp"
         app:layout_constraintBottom_toBottomOf="@+id/gridLayout6"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.126"
+        app:layout_constraintHorizontal_bias="0.109"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@+id/gridLayout6"
-        app:layout_constraintVertical_bias="0.837" />
+        app:layout_constraintVertical_bias="0.9" />
 
     <Button
         android:id="@+id/button5"
@@ -266,9 +172,66 @@
         android:text="CLEAR"
         app:layout_constraintBottom_toBottomOf="@+id/gridLayout6"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintHorizontal_bias="0.966"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.836" />
+        app:layout_constraintVertical_bias="0.893" />
+
+    <EditText
+        android:id="@+id/editText7"
+        android:layout_width="184dp"
+        android:layout_height="63dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        android:ems="10"
+        android:inputType="date"
+        android:text="@string/input5"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/editText8"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.726"
+        tools:text="@string/input5" />
+
+    <EditText
+        android:id="@+id/editText8"
+        android:layout_width="189dp"
+        android:layout_height="63dp"
+        android:ems="10"
+        android:inputType="time"
+        android:text="@string/inputET"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.721" />
+
+    <androidx.gridlayout.widget.GridLayout
+        android:layout_width="408dp"
+        android:layout_height="193dp"
+        android:layout_marginBottom="16dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.551"
+        app:layout_constraintStart_toStartOf="@+id/editText7"
+        app:layout_constraintTop_toTopOf="@+id/gridLayout6"
+        app:layout_constraintVertical_bias="0.0">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            app:layout_column="14"
+            android:background="@drawable/ui2"
+            app:layout_row="9">
+
+
+
+        </LinearLayout>
+    </androidx.gridlayout.widget.GridLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

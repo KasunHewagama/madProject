@@ -6,7 +6,7 @@
     <string name="btn3">View Result</string>
     <string name="add_new_course">Add New Course</string>
     <string name="add_new_exam">Add New Exam</string>
-    <string name="View_new_result">View Exams Results</string>
+    <string name="add_new_result">Add New Result</string>
     <string name="textView12">Workout</string>
     <string name="txtWalk">Walking</string>
     <string name="txtRun">Running</string>
@@ -42,4 +42,19 @@
     <string name="runworkoutdes">As a form of aerobic exercise, running can reduce stress, improve heart health, and even help alleviate symptoms of depression.</string>
 
 
+    <string name="input1">Plan Name:</string>
+    <string name="input2">StartingPoint:</string>
+    <string name="input3">Destination:</string>
+    <string name="input4" >StartingTime</string>
+    <string name="input5">EndDate</string>
+    <string name="inputST">Time</string>
+    <string name="inputET">Time</string>
+    <string name="HHoliday">Holiday</string>
+    <string name="Plan">Planning</string>
+    <string name="todo">Work ToDo</string>
+    <string name="memories">Memories</string>
+    <string name="view">View WorkToDo</string>
+    <string name="plan1">Plan1</string>
+    <string name="plan2">Plan2</string>
+    <string name="plan3">Plan3</string>
 </resources>
