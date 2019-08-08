@@ -33,6 +33,8 @@
     <string name="addplandes">Add Workout Planing..!</string>
     <string name="viewplan">View Plan</string>
     <string name="viewplandes">View the previously added workout plans..!</string>
+    <string name="plandone">Donned Workouts</string>
+    <string name="plandonedes">Plans which were done in the past..!</string>
 
 
 </resources>
