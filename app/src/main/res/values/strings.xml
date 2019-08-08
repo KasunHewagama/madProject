@@ -79,4 +79,12 @@
     <string name="teacher">Enter Teachers Name</string>
     <string name="place">Enter a Place</string>
     <string name="datetime"><![CDATA[Enter Date & Time]]></string>
+    <string name="coursewelcome">Welcome</string>
+    <string name="coursedes">Start with creating a new course!
+    or check out the View to enable multiple weeks and change the  default course time.</string>
+    <string name="examname">Enter Exam Name</string>
+    <string name="congrats">Congratulations</string>
+    <string name="examdes">Do yoy best!</string>
+    <string name="goodluck">Good Luck For Your Exam</string>
+    <string name="examcongrat">Congratulations on your excellent success and good luck for more progress. I have complete faith that you’ll pass your exam with good score.</string>
 </resources>

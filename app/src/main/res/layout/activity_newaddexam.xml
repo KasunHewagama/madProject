@@ -7,8 +7,10 @@
     tools:context=".newaddexam">
 
     <LinearLayout
+        android:id="@+id/linearLayout3"
         android:layout_width="414dp"
         android:layout_height="137dp"
+        android:layout_marginEnd="16dp"
         android:layout_marginBottom="8dp"
         android:background="@drawable/examback"
         android:orientation="horizontal"
@@ -25,15 +27,229 @@
         android:layout_marginStart="8dp"
         android:layout_marginEnd="8dp"
         android:layout_marginBottom="8dp"
-        android:fontFamily="sans-serif-black"
+        android:fontFamily="sans-serif-smallcaps"
         android:text="@string/addexam"
-        android:textColor="@android:color/background_light"
-        android:textSize="30sp"
+        android:textColor="#030303"
+        android:textSize="25sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.096"
+        app:layout_constraintHorizontal_bias="0.045"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.042" />
+        app:layout_constraintVertical_bias="0.02" />
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="118dp"
+        android:layout_margin="8dp"
+        android:layout_marginBottom="8dp"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.856">
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cardId009"
+            android:layout_width="373dp"
+            android:layout_height="93dp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="25dp"
+            android:layout_marginRight="25dp"
+            android:foreground="?android:attr/selectableItemBackground"
+            app:cardCornerRadius="10dp">
+
+            <ImageView
+
+                android:layout_width="86dp"
+                android:layout_height="72dp"
+                app:srcCompat="@drawable/date" />
+
+            <EditText
+                android:id="@+id/editText1115"
+                android:layout_width="260dp"
+                android:layout_height="94dp"
+                android:layout_marginStart="110dp"
+                android:ems="10"
+                android:fontFamily="sans-serif-black"
+                android:hint="@string/datetime"
+                android:inputType="textPersonName"
+                android:paddingTop="15dp"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+        </androidx.cardview.widget.CardView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="118dp"
+        android:layout_margin="8dp"
+        android:layout_marginBottom="8dp"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.277">
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cardId010"
+            android:layout_width="373dp"
+            android:layout_height="93dp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="25dp"
+            android:layout_marginRight="25dp"
+            android:foreground="?android:attr/selectableItemBackground"
+            app:cardCornerRadius="10dp">
+
+            <ImageView
+
+                android:layout_width="86dp"
+                android:layout_height="72dp"
+                app:srcCompat="@drawable/name" />
+
+            <EditText
+                android:id="@+id/editText151"
+                android:layout_width="260dp"
+                android:layout_height="94dp"
+                android:layout_marginStart="110dp"
+                android:ems="10"
+                android:fontFamily="sans-serif-black"
+                android:hint="@string/examname"
+                android:inputType="textPersonName"
+                android:paddingTop="15dp"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+        </androidx.cardview.widget.CardView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="118dp"
+        android:layout_margin="8dp"
+        android:layout_marginBottom="8dp"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.475">
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cardId011"
+            android:layout_width="373dp"
+            android:layout_height="93dp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="25dp"
+            android:layout_marginRight="25dp"
+            android:foreground="?android:attr/selectableItemBackground"
+            app:cardCornerRadius="10dp">
+
+            <ImageView
+
+                android:layout_width="86dp"
+                android:layout_height="72dp"
+                app:srcCompat="@drawable/sub" />
+
+            <EditText
+                android:id="@+id/editText1105"
+                android:layout_width="260dp"
+                android:layout_height="94dp"
+                android:layout_marginStart="110dp"
+                android:ems="10"
+                android:fontFamily="sans-serif-black"
+                android:hint="@string/subject"
+                android:inputType="textPersonName"
+                android:paddingTop="15dp"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+        </androidx.cardview.widget.CardView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="118dp"
+        android:layout_margin="8dp"
+        android:layout_marginBottom="8dp"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.666">
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cardId012"
+            android:layout_width="373dp"
+            android:layout_height="93dp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="25dp"
+            android:layout_marginRight="25dp"
+            android:foreground="?android:attr/selectableItemBackground"
+            app:cardCornerRadius="10dp">
+
+            <ImageView
+                android:id="@+id/imageView6"
+                android:layout_width="86dp"
+                android:layout_height="72dp"
+                app:srcCompat="@drawable/place" />
+
+            <EditText
+                android:id="@+id/editText15"
+                android:layout_width="260dp"
+                android:layout_height="94dp"
+                android:layout_marginStart="110dp"
+                android:ems="10"
+                android:fontFamily="sans-serif-black"
+                android:hint="@string/place"
+                android:inputType="textPersonName"
+                android:paddingTop="15dp"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+        </androidx.cardview.widget.CardView>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="144dp"
+        android:layout_height="26dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        android:text="@string/goodluck"
+        android:textColor="#070707"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.032"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.069" />
+
+    <TextView
+        android:id="@+id/textView16"
+        android:layout_width="190dp"
+        android:layout_height="41dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        android:text="@string/examdes"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.035"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.105" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
