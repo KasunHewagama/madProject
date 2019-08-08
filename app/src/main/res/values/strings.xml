@@ -37,6 +37,9 @@
     <string name="plandonedes">Plans which were done in the past..!</string>
     <string name="walkworkouttitle">Walking Exercises</string>
     <string name="walkworkoutdes">Walking is great exercise and can be very beneficial aerobically.</string>
+    <string name="runhome">Running Workout</string>
+    <string name="runworkouttitle">Running Exercises</string>
+    <string name="runworkoutdes">As a form of aerobic exercise, running can reduce stress, improve heart health, and even help alleviate symptoms of depression.</string>
 
 
 </resources>
