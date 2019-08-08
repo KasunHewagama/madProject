@@ -7,12 +7,11 @@
     <string name="add_new_course">Add New Course</string>
     <string name="add_new_exam">Add New Exam</string>
     <string name="add_new_result">Add New Result</string>
-
     <string name="textView12">Workout</string>
-    <string name="textView8">Walking</string>
-    <string name="textView9">Running</string>
-    <string name="textView10">Cycling</string>
-    <string name="textView11">Swimming</string>
+    <string name="btnWalk">Walking</string>
+    <string name="btnRun">Running</string>
+    <string name="btnCycle">Cycling</string>
+    <string name="btnSwim">Swimming</string>
     <string name="btnadd">Add</string>
     <string name="btnview">View</string>
     <string name="btndone">Done</string>
