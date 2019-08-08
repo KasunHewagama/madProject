@@ -28,7 +28,7 @@
             android:layout_marginLeft="10dp"
             android:layout_marginTop="90dp"
             android:fontFamily="sans-serif-condensed"
-            android:text="@string/workouthomename"
+            android:text="@string/workouthome"
             android:textColor="@color/lightgray"
             android:textSize="30sp"
             android:textStyle="normal" />

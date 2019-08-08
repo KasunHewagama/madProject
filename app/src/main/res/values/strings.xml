@@ -6,7 +6,7 @@
     <string name="btn3">View Result</string>
     <string name="add_new_course">Add New Course</string>
     <string name="add_new_exam">Add New Exam</string>
-    <string name="add_new_result">Add New Result</string>
+    <string name="View_new_result">View Exams Results</string>
     <string name="textView12">Workout</string>
     <string name="txtWalk">Walking</string>
     <string name="txtRun">Running</string>
@@ -16,5 +16,18 @@
     <string name="btnview">View</string>
     <string name="btndone">Done</string>
     <string name="textView13">Walking Workout</string>
-    <string name="workouthomename">Workouts</string>
+    <string name="share">Share</string>
+    <string name="findfr">Find Friends</string>
+    <string name="feed">View Feed</string>
+    <string name="Serach">Find Your Friends and Collegues</string>
+    <string name="sharestatus">Share your Activities with Others</string>
+    <string name="Viewothers">View what your friends are doing</string>
+    <string name="comtext">Welcome to the Community!  </string>
+    <string name="comdescription">This feed is created to share your activities among your collegues.So enjoy it!</string>
+    <string name="title_activity_timetable">timetable</string>
+    <string name="timetable">TimeTables</string>
+    <string name="nocourse">No Course Added Yet</string>
+    <string name="workouthome">Workouts</string>
+
+
 </resources>
