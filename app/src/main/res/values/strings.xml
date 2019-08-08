@@ -16,4 +16,12 @@
     <string name="btnview">View</string>
     <string name="btndone">Done</string>
     <string name="textView13">Walking Workout</string>
+    <string name="share">Share</string>
+    <string name="findfr">Find Friends</string>
+    <string name="feed">View Feed</string>
+    <string name="Serach">Find Your Friends and Collegues</string>
+    <string name="sharestatus">Share your Activities with Others</string>
+    <string name="Viewothers">View what your friends are doing</string>
+    <string name="comtext">Welcome to the Community!  </string>
+    <string name="comdescription">This feed is created to share your activities among your collegues.So enjoy it!</string>
 </resources>

@@ -30,8 +30,8 @@
             android:fontFamily="sans-serif-condensed"
             android:text="Community"
             android:textColor="@color/lightgray"
-            android:textSize="30sp"
-            android:textStyle="normal" />
+            android:textSize="25sp"
+            android:textStyle="normal|bold" />
 
     </LinearLayout>
 
@@ -49,10 +49,10 @@
         android:orientation="horizontal"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintHorizontal_bias="0.024"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.23">
+        app:layout_constraintVertical_bias="0.423">
 
         <androidx.cardview.widget.CardView
             android:id="@+id/cardId5"
@@ -78,7 +78,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="10dp"
-                    android:text="Find Friends"
+                    android:text="@string/findfr"
                     android:textStyle="bold" />
 
                 <View
@@ -92,7 +92,7 @@
                     android:layout_height="50dp"
                     android:gravity="center"
                     android:padding="5dp"
-                    android:text="Add your Time Tables"
+                    android:text="@string/Serach"
                     android:textColor="@android:color/darker_gray" />
 
             </LinearLayout>
@@ -114,10 +114,10 @@
         android:orientation="horizontal"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintHorizontal_bias="0.862"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.617">
+        app:layout_constraintVertical_bias="0.423">
 
         <androidx.cardview.widget.CardView
             android:id="@+id/cardId6"
@@ -136,14 +136,14 @@
                 <ImageView
                     android:layout_width="64dp"
                     android:layout_height="64dp"
-                    android:background="@drawable/searchfrnd"
+                    android:background="@drawable/shareicon"
                     android:padding="10dp" />
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="10dp"
-                    android:text="Find Friends"
+                    android:text="@string/share"
                     android:textStyle="bold" />
 
                 <View
@@ -157,7 +157,7 @@
                     android:layout_height="50dp"
                     android:gravity="center"
                     android:padding="5dp"
-                    android:text="Add your Time Tables"
+                    android:text="@string/sharestatus"
                     android:textColor="@android:color/darker_gray" />
 
             </LinearLayout>
@@ -178,10 +178,10 @@
         android:orientation="horizontal"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintHorizontal_bias="0.45"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="1.0">
+        app:layout_constraintVertical_bias="0.811">
 
         <androidx.cardview.widget.CardView
             android:id="@+id/cardId7"
@@ -200,14 +200,14 @@
                 <ImageView
                     android:layout_width="64dp"
                     android:layout_height="64dp"
-                    android:background="@drawable/searchfrnd"
+                    android:background="@drawable/feedcom"
                     android:padding="10dp" />
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="10dp"
-                    android:text="Find Friends"
+                    android:text="@string/feed"
                     android:textStyle="bold" />
 
                 <View
@@ -221,11 +221,45 @@
                     android:layout_height="50dp"
                     android:gravity="center"
                     android:padding="5dp"
-                    android:text="Add your Time Tables"
+                    android:text="@string/Viewothers"
                     android:textColor="@android:color/darker_gray" />
 
             </LinearLayout>
         </androidx.cardview.widget.CardView>
     </LinearLayout>
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="306dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        android:text="@string/comtext"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/linearLayout5"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/linearLayout8"
+        app:layout_constraintVertical_bias="0.731" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="363dp"
+        android:layout_height="53dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        android:text="@string/comdescription"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.781"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/linearLayout8"
+        app:layout_constraintVertical_bias="0.257" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
