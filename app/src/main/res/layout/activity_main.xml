@@ -9,7 +9,6 @@
     tools:context=".MainActivity">
 
 
-
     <LinearLayout
         android:id="@+id/linearLayout"
         android:layout_width="417dp"
@@ -80,9 +79,9 @@
 
     <LinearLayout
         android:id="@+id/linearLayout4"
-        android:layout_width="170dp"
+        android:layout_width="169dp"
 
-        android:layout_height="275dp"
+        android:layout_height="233dp"
         android:layout_marginStart="28dp"
         android:layout_marginTop="8dp"
         android:layout_marginEnd="8dp"
@@ -94,8 +93,8 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.009"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.479">
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout"
+        app:layout_constraintVertical_bias="0.073">
 
         <androidx.cardview.widget.CardView
             android:id="@+id/cardId1"
@@ -103,9 +102,9 @@
             android:layout_height="190dp"
             android:layout_margin="10dp"
             android:clickable="true"
-            app:cardCornerRadius="10dp"
+            android:foreground="?android:attr/selectableItemBackground"
 
-            android:foreground="?android:attr/selectableItemBackground">
+            app:cardCornerRadius="10dp">
 
             <LinearLayout
                 android:layout_width="match_parent"
@@ -146,22 +145,23 @@
 
 
     <LinearLayout
-        android:layout_width="169dp"
-        android:layout_height="272dp"
+        android:id="@+id/linearLayout10"
+        android:layout_width="168dp"
 
-        android:layout_marginStart="28dp"
+        android:layout_height="233dp"
+        android:layout_marginStart="8dp"
         android:layout_marginTop="8dp"
-        android:layout_marginEnd="8dp"
-        android:layout_marginBottom="220dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="8dp"
         android:clipToPadding="false"
         android:gravity="center"
         android:orientation="horizontal"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.917"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.777">
+        app:layout_constraintHorizontal_bias="0.833"
+        app:layout_constraintStart_toEndOf="@+id/linearLayout4"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout"
+        app:layout_constraintVertical_bias="0.072">
 
         <androidx.cardview.widget.CardView
             android:id="@+id/cardId2"
@@ -169,13 +169,13 @@
             android:layout_height="190dp"
             android:layout_margin="10dp"
             android:clickable="true"
-            app:cardCornerRadius="10dp"
+            android:foreground="?android:attr/selectableItemBackground"
 
-            android:foreground="?android:attr/selectableItemBackground">
+            app:cardCornerRadius="10dp">
 
             <LinearLayout
                 android:layout_width="match_parent"
-                android:layout_height="match_parent"
+                android:layout_height="188dp"
                 android:gravity="center"
                 android:orientation="vertical">
 
@@ -212,11 +212,10 @@
 
     <LinearLayout
         android:id="@+id/linearLayout5"
-        android:layout_width="171dp"
+        android:layout_width="169dp"
 
-        android:layout_height="232dp"
+        android:layout_height="225dp"
         android:layout_marginStart="28dp"
-        android:layout_marginTop="8dp"
         android:layout_marginEnd="8dp"
         android:layout_marginBottom="8dp"
         android:clipToPadding="false"
@@ -224,10 +223,10 @@
         android:orientation="horizontal"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.004"
+        app:layout_constraintHorizontal_bias="0.009"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.904">
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout4"
+        app:layout_constraintVertical_bias="0.0">
 
         <androidx.cardview.widget.CardView
             android:id="@+id/cardId3"
@@ -235,8 +234,8 @@
             android:layout_height="190dp"
             android:layout_margin="10dp"
             android:clickable="true"
-            app:cardCornerRadius="10dp"
-            android:foreground="?android:attr/selectableItemBackground">
+            android:foreground="?android:attr/selectableItemBackground"
+            app:cardCornerRadius="10dp">
 
             <LinearLayout
                 android:layout_width="match_parent"
@@ -277,11 +276,11 @@
 
     <LinearLayout
         android:id="@+id/linearLayout6"
-        android:layout_width="170dp"
+        android:layout_width="169dp"
 
-        android:layout_height="232dp"
-        android:layout_marginStart="28dp"
-        android:layout_marginTop="8dp"
+        android:layout_height="225dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="-5dp"
         android:layout_marginEnd="8dp"
         android:layout_marginBottom="8dp"
         android:clipToPadding="false"
@@ -289,19 +288,19 @@
         android:orientation="horizontal"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.921"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.904">
+        app:layout_constraintHorizontal_bias="0.481"
+        app:layout_constraintStart_toEndOf="@+id/linearLayout5"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout10"
+        app:layout_constraintVertical_bias="0.025">
 
         <androidx.cardview.widget.CardView
             android:id="@+id/cardId4"
             android:layout_width="160dp"
             android:layout_height="190dp"
             android:layout_margin="10dp"
-            app:cardCornerRadius="10dp"
             android:clickable="true"
-            android:foreground="?android:attr/selectableItemBackground">
+            android:foreground="?android:attr/selectableItemBackground"
+            app:cardCornerRadius="10dp">
 
             <LinearLayout
                 android:layout_width="match_parent"
