@@ -51,12 +51,10 @@
     <string name="swimworkouttitle">Swimming Exercises</string>
     <string name="swimworkoutdes">Swimming is the self-propulsion of a person through water, usually for recreation, sport, exercise, or survival.</string>
     <string name="searchfr">Lets Search Your Friends!</string>
-
-
     <string name="input1">Plan Name:</string>
     <string name="input2">StartingPoint:</string>
     <string name="input3">Destination:</string>
-    <string name="input4" >StartingTime</string>
+    <string name="input4">StartingTime</string>
     <string name="input5">EndDate</string>
     <string name="inputST">Time</string>
     <string name="inputET">Time</string>
@@ -72,4 +70,9 @@
     <string name="calview">Your date</string>
     <string name="enddate">Ending Date</string>
     <string name="endtextview">Your date</string>
+    <string name="addworkoutplan">Add Workout Plan</string>
+    <string name="addWorkoutName">Enter Workout name :</string>
+    <string name="addstarttime">Starting Time :</string>
+    <string name="addendtime">Ending Time :</string>
+    <string name="adddistance">Distance :</string>
 </resources>

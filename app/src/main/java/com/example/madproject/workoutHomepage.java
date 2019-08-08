@@ -11,15 +11,15 @@ import android.view.View;
 
 public class workoutHomepage extends AppCompatActivity implements View.OnClickListener {
 
-   private CardView run,walk,cycle,swim;
+   private CardView walk,run,cycle,swim;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_workouthomepage);
 
         //assign variables
-        run = (CardView) findViewById(R.id.walk);
-        walk = (CardView) findViewById(R.id.run);
+        walk = (CardView) findViewById(R.id.walk);
+        run = (CardView) findViewById(R.id.run);
         cycle = (CardView) findViewById(R.id.cycle);
         swim = (CardView) findViewById(R.id.swim);
 
