@@ -27,11 +27,11 @@
             android:layout_height="45dp"
             android:layout_marginLeft="10dp"
             android:layout_marginTop="90dp"
-            android:fontFamily="sans-serif-condensed"
+            android:fontFamily="sans-serif-medium"
             android:text="@string/walkhome"
             android:textColor="@color/lightgray"
-            android:textSize="30sp"
-            android:textStyle="normal" />
+            android:textSize="25sp"
+            android:textStyle="normal|bold" />
     </LinearLayout>
 
     <LinearLayout
