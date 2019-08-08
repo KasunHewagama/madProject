@@ -32,7 +32,10 @@ public class Community extends AppCompatActivity implements View.OnClickListener
 
         switch (view.getId())
         {
-            case R.id.cardId5:i=new Intent(this,FindFriends.class);startActivity(i);break;
+            case R.id.cardId5:i=new Intent(this,findfriends.class);startActivity(i);break;
+            case R.id.cardId6:i=new Intent(this,shareactivity.class);startActivity(i);break;
+            case R.id.cardId7:i=new Intent(this,feedcom.class);startActivity(i);break;
+
             default:break;
         }
 

@@ -23,8 +23,8 @@
 
         <TextView
             android:id="@+id/textView4"
-            android:layout_width="215dp"
-            android:layout_height="45dp"
+            android:layout_width="295dp"
+            android:layout_height="44dp"
             android:layout_marginLeft="@dimen/default_gap"
             android:layout_marginTop="90dp"
             android:fontFamily="sans-serif-medium"

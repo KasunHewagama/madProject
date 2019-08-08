@@ -48,33 +48,33 @@
         app:layout_constraintHorizontal_bias="0.6"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@+id/linearLayout8"
-        app:layout_constraintVertical_bias="0.333">
+        app:layout_constraintVertical_bias="0.318">
 
         <androidx.cardview.widget.CardView
             android:id="@+id/PLAN"
-            android:layout_width="match_parent"
-            android:layout_height="96dp"
+            android:layout_width="347dp"
+            android:layout_height="59dp"
             android:layout_gravity="center"
             android:clickable="true"
             android:foreground="?android:attr/selectableItemBackground"
-            app:cardCornerRadius="40dp">
+            app:cardCornerRadius="30dp">
 
             <ImageView
                 android:id="@+id/imageView10"
-                android:layout_width="79dp"
-                android:layout_height="65dp"
+                android:layout_width="59dp"
+                android:layout_height="41dp"
                 android:layout_marginLeft="10dp"
-                android:layout_marginTop="15dp"
+                android:layout_marginTop="12dp"
                 app:srcCompat="@drawable/puzzle" />
 
             <TextView
                 android:id="@+id/textView10"
-                android:layout_width="163dp"
-                android:layout_height="35dp"
+                android:layout_width="152dp"
+                android:layout_height="wrap_content"
                 android:layout_marginLeft="110dp"
-                android:layout_marginTop="30dp"
+                android:layout_marginTop="15dp"
                 android:text="@string/Plan"
-                android:textSize="25sp"
+                android:textSize="20sp"
                 android:textStyle="bold"
                 tools:text="@string/Plan" />
         </androidx.cardview.widget.CardView>
@@ -93,33 +93,33 @@
         app:layout_constraintHorizontal_bias="0.6"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@+id/linearLayout8"
-        app:layout_constraintVertical_bias="0.55">
+        app:layout_constraintVertical_bias="0.472">
 
         <androidx.cardview.widget.CardView
             android:id="@+id/WORK"
-            android:layout_width="match_parent"
-            android:layout_height="96dp"
+            android:layout_width="347dp"
+            android:layout_height="59dp"
             android:layout_gravity="center"
             android:clickable="true"
             android:foreground="?android:attr/selectableItemBackground"
-            app:cardCornerRadius="40dp">
+            app:cardCornerRadius="30dp">
 
             <ImageView
                 android:id="@+id/imageView11"
-                android:layout_width="79dp"
-                android:layout_height="65dp"
+                android:layout_width="53dp"
+                android:layout_height="39dp"
                 android:layout_marginLeft="10dp"
-                android:layout_marginTop="15dp"
+                android:layout_marginTop="12dp"
                 app:srcCompat="@drawable/travel" />
 
             <TextView
                 android:id="@+id/textView11"
-                android:layout_width="163dp"
-                android:layout_height="35dp"
+                android:layout_width="160dp"
+                android:layout_height="wrap_content"
                 android:layout_marginLeft="110dp"
-                android:layout_marginTop="30dp"
+                android:layout_marginTop="15dp"
                 android:text="@string/todo"
-                android:textSize="25sp"
+                android:textSize="20sp"
                 android:textStyle="bold"
                 tools:text="@string/todo" />
         </androidx.cardview.widget.CardView>
@@ -137,36 +137,44 @@
         app:layout_constraintHorizontal_bias="0.6"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@+id/linearLayout8"
-        app:layout_constraintVertical_bias="0.758">
+        app:layout_constraintVertical_bias="0.62">
 
         <androidx.cardview.widget.CardView
             android:id="@+id/MEMORIES"
-            android:layout_width="match_parent"
-            android:layout_height="96dp"
+            android:layout_width="347dp"
+            android:layout_height="59dp"
             android:layout_gravity="center"
             android:clickable="true"
             android:foreground="?android:attr/selectableItemBackground"
-            app:cardCornerRadius="40dp">
+            app:cardCornerRadius="30dp">
 
             <ImageView
                 android:id="@+id/imageView12"
-                android:layout_width="79dp"
-                android:layout_height="65dp"
+                android:layout_width="57dp"
+                android:layout_height="38dp"
                 android:layout_marginLeft="10dp"
                 android:layout_marginTop="15dp"
                 app:srcCompat="@drawable/camera" />
 
             <TextView
                 android:id="@+id/textView12"
-                android:layout_width="163dp"
-                android:layout_height="35dp"
+                android:layout_width="154dp"
+                android:layout_height="wrap_content"
                 android:layout_marginLeft="110dp"
-                android:layout_marginTop="30dp"
+                android:layout_marginTop="15dp"
                 android:text="@string/memories"
-                android:textSize="25sp"
+                android:textSize="20sp"
                 android:textStyle="bold"
                 tools:text="@string/memories" />
         </androidx.cardview.widget.CardView>
     </LinearLayout>
+
+    <TextView
+        android:id="@+id/textView36"
+        android:layout_width="374dp"
+        android:layout_height="46dp"
+        android:text="@string/planholiday"
+        tools:layout_editor_absoluteX="13dp"
+        tools:layout_editor_absoluteY="145dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

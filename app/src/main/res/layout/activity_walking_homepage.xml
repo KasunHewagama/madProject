@@ -23,13 +23,13 @@
 
         <TextView
             android:id="@+id/textView4"
-            android:layout_width="215dp"
-            android:layout_height="45dp"
+            android:layout_width="253dp"
+            android:layout_height="48dp"
             android:layout_marginLeft="@dimen/default_gap"
             android:layout_marginTop="90dp"
-            android:textAlignment="center"
             android:fontFamily="sans-serif-medium"
             android:text="@string/walkhome"
+            android:textAlignment="center"
             android:textColor="@color/lightgray"
             android:textSize="25sp"
             android:textStyle="normal|bold" />
@@ -180,7 +180,7 @@
         app:layout_constraintHorizontal_bias="0.45"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.811">
+        app:layout_constraintVertical_bias="0.795">
 
         <androidx.cardview.widget.CardView
             android:id="@+id/cardId7"
@@ -232,7 +232,7 @@
         android:layout_width="306dp"
         android:layout_height="40dp"
         android:layout_marginStart="8dp"
-        android:layout_marginTop="8dp"
+        android:layout_marginTop="144dp"
         android:layout_marginEnd="8dp"
         android:layout_marginBottom="8dp"
         android:text="@string/walkworkouttitle"
@@ -256,10 +256,10 @@
         android:text="@string/walkworkoutdes"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.781"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@+id/linearLayout8"
-        app:layout_constraintVertical_bias="0.257" />
+        app:layout_constraintVertical_bias="0.226" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
 

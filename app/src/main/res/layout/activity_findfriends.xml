@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".FindFriends">
+    tools:context=".findfriends">
 
     <LinearLayout
         android:id="@+id/linearLayout9"
@@ -70,6 +70,4 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@+id/linearLayout9"
         app:layout_constraintVertical_bias="0.198" />
-
 </androidx.constraintlayout.widget.ConstraintLayout>
-

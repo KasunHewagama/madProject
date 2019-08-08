@@ -40,8 +40,8 @@
 
     <Button
         android:id="@+id/button"
-        android:layout_width="158dp"
-        android:layout_height="74dp"
+        android:layout_width="152dp"
+        android:layout_height="41dp"
         android:layout_marginStart="8dp"
         android:layout_marginTop="8dp"
 
@@ -53,15 +53,15 @@
         android:textSize="18sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.075"
+        app:layout_constraintHorizontal_bias="0.138"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.949" />
+        app:layout_constraintVertical_bias="0.951" />
 
     <Button
         android:id="@+id/button5"
-        android:layout_width="155dp"
-        android:layout_height="69dp"
+        android:layout_width="144dp"
+        android:layout_height="43dp"
         android:layout_marginStart="8dp"
         android:layout_marginTop="684dp"
         android:layout_marginEnd="8dp"
@@ -70,17 +70,17 @@
         android:text="CLEAR"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.925"
+        app:layout_constraintHorizontal_bias="0.922"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.648" />
 
     <LinearLayout
         android:id="@+id/linearLayout13"
-        android:layout_width="401dp"
-        android:layout_height="139dp"
-        android:layout_marginStart="8dp"
-        android:layout_marginTop="8dp"
-        android:layout_marginEnd="8dp"
+        android:layout_width="412dp"
+        android:layout_height="141dp"
+
+
         android:layout_marginBottom="8dp"
         android:background="@drawable/uip1"
         android:orientation="vertical"
@@ -136,8 +136,8 @@
 
     <Button
         android:id="@+id/enddate"
-        android:layout_width="193dp"
-        android:layout_height="48dp"
+        android:layout_width="207dp"
+        android:layout_height="54dp"
         android:layout_marginStart="8dp"
         android:layout_marginTop="8dp"
         android:layout_marginEnd="8dp"

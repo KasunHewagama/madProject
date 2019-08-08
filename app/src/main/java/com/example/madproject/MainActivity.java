@@ -15,7 +15,7 @@ public class MainActivity extends AppCompatActivity implements  View.OnClickList
 
 
     private CardView work,holiday,timetable,community;
-
+    private Button login;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -25,11 +25,12 @@ public class MainActivity extends AppCompatActivity implements  View.OnClickList
         holiday=(CardView)findViewById(R.id.cardId2);
         timetable=(CardView)findViewById(R.id.cardId3);
         community=(CardView)findViewById(R.id.cardId4);
-
+        login=(Button)findViewById(R.id.button3);
         work.setOnClickListener(this);
         holiday.setOnClickListener(this);
         timetable.setOnClickListener(this);
         community.setOnClickListener(this);
+        login.setOnClickListener(this);
     }
 
     @Override
@@ -45,6 +46,8 @@ public class MainActivity extends AppCompatActivity implements  View.OnClickList
             case R.id.cardId3 : i=new Intent(this,timetable.class);startActivity(i);break;
 
             case R.id.cardId4 : i=new Intent(this,Community.class);startActivity(i);break;
+
+            case R.id.button3 : i=new Intent(this,loginact.class);startActivity(i);break;
 
             default:break;
         }

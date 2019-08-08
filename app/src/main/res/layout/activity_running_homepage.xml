@@ -24,13 +24,13 @@
 
         <TextView
             android:id="@+id/textView4"
-            android:layout_width="215dp"
-            android:layout_height="45dp"
+            android:layout_width="264dp"
+            android:layout_height="48dp"
             android:layout_marginLeft="@dimen/default_gap"
-            android:textAlignment="center"
             android:layout_marginTop="90dp"
             android:fontFamily="sans-serif-medium"
             android:text="@string/runhome"
+            android:textAlignment="center"
             android:textColor="@color/lightgray"
             android:textSize="25sp"
             android:textStyle="normal|bold" />
@@ -181,7 +181,7 @@
         app:layout_constraintHorizontal_bias="0.45"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.811">
+        app:layout_constraintVertical_bias="0.784">
 
         <androidx.cardview.widget.CardView
             android:id="@+id/cardId7"
@@ -244,7 +244,7 @@
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@+id/linearLayout8"
-        app:layout_constraintVertical_bias="0.731" />
+        app:layout_constraintVertical_bias="0.678" />
 
     <TextView
         android:id="@+id/textView9"
@@ -257,10 +257,9 @@
         android:text="@string/runworkoutdes"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.781"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@+id/linearLayout8"
-        app:layout_constraintVertical_bias="0.257" />
+        app:layout_constraintVertical_bias="0.23" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
