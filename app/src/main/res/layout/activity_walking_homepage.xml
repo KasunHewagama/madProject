@@ -36,7 +36,7 @@
     </LinearLayout>
 
     <LinearLayout
-        android:id="@+id/linearLayout5"
+        android:id="@+id/add"
         android:layout_width="171dp"
 
         android:layout_height="232dp"
@@ -100,7 +100,7 @@
     </LinearLayout>
 
     <LinearLayout
-        android:id="@+id/linearLayout6"
+        android:id="@+id/view"
         android:layout_width="171dp"
 
         android:layout_height="232dp"
@@ -164,7 +164,7 @@
     </LinearLayout>
 
     <LinearLayout
-        android:id="@+id/linearLayout7"
+        android:id="@+id/done"
         android:layout_width="171dp"
 
         android:layout_height="232dp"
