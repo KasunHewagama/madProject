@@ -36,9 +36,9 @@ public class walkingHomepage extends AppCompatActivity  implements View.OnClickL
             case R.id.cardId5: intent02 = new Intent(this,addPlan.class);
                                     startActivity(intent02);
                                     break;
-//            case R.id.cardId6: intent02 = new Intent(this.viewPlan.class);
-//                                    startActivity(intent02);
-//                                      break;
+            case R.id.cardId6: intent02 = new Intent(this,addView.class);
+                                    startActivity(intent02);
+                                      break;
 //            case R.id.cardId6: intent02 = new Intent(this.donePlan.class);
 //                                    startActivity(intent02);
 //                                      break;
