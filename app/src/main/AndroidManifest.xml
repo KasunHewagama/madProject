@@ -9,7 +9,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".timetable"></activity>
+        <activity android:name=".FindFriends"></activity>
+        <activity android:name=".timetable" />
         <activity android:name=".Community" />
         <activity android:name=".Holiday_UI4" />
         <activity android:name=".Holiday_UI3" />
