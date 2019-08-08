@@ -44,7 +44,7 @@ public class MainActivity extends AppCompatActivity implements  View.OnClickList
 
             case R.id.cardId3 : i=new Intent(this,Timetable.class);startActivity(i);break;
 
-            case R.id.cardId4 : i=new Intent(this,workoutHomepage.class);startActivity(i);break;
+            case R.id.cardId4 : i=new Intent(this,Community.class);startActivity(i);break;
 
             default:break;
         }
