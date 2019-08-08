@@ -51,6 +51,8 @@
     <string name="swimworkouttitle">Swimming Exercises</string>
     <string name="swimworkoutdes">Swimming is the self-propulsion of a person through water, usually for recreation, sport, exercise, or survival.</string>
     <string name="searchfr">Lets Search Your Friends!</string>
+
+
     <string name="input1">Plan Name:</string>
     <string name="input2">StartingPoint:</string>
     <string name="input3">Destination:</string>
@@ -97,4 +99,11 @@
     <string name="timetablehome">Managing your school or university life. Save your timetable and all tasks from courses to exams.</string>
     <string name="clear">Clear</string>
     <string name="save">Save</string>
+    <string name="Slocation">StartingLocation:</string>
+    <string name="Elocation">Destination:</string>
+    <string name="MEMORIES1">DONE_WORKOUT1</string>
+    <string name="memo1">DoneWork1</string>
+    <string name="memo2">DoneWork2</string>
+    <string name="memo3">DoneWork3</string>
+    <string name="MEMO">Memories</string>
 </resources>

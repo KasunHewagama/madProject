@@ -35,7 +35,7 @@ public class Holiday_UI1 extends AppCompatActivity implements View.OnClickListen
             case R.id.WORK: I=new Intent(this,Holiday_UI3.class);
                                 startActivity(I);
                                 break;
-            case R.id.MEMORIES: I=new Intent(this,Holiday_UI2.class);
+            case R.id.MEMORIES: I=new Intent(this,Holiday_UI5.class);
                                 startActivity(I);
                                 break;
              default:           break;
