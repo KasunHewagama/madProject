@@ -9,7 +9,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".Holiday_UI4"></activity>
+        <activity android:name=".Community"></activity>
+        <activity android:name=".Holiday_UI4" />
         <activity android:name=".Holiday_UI3" />
         <activity android:name=".Holiday_UI2" />
         <activity android:name=".Holiday_UI1" />
