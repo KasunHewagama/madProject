@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#EBE4EC"
+    android:background="#ffff"
     tools:context=".Holiday_UI1">
 
     <LinearLayout
@@ -37,6 +37,7 @@
     </LinearLayout>
 
     <LinearLayout
+        android:id="@+id/linearLayout17"
         android:layout_width="363dp"
         android:layout_height="123dp"
         android:layout_marginTop="8dp"
@@ -82,6 +83,7 @@
 
 
     <LinearLayout
+        android:id="@+id/linearLayout19"
         android:layout_width="363dp"
         android:layout_height="123dp"
         android:layout_marginTop="8dp"
@@ -126,6 +128,7 @@
     </LinearLayout>
 
     <LinearLayout
+        android:id="@+id/linearLayout18"
         android:layout_width="363dp"
         android:layout_height="123dp"
         android:layout_marginTop="8dp"
@@ -173,8 +176,16 @@
         android:id="@+id/textView36"
         android:layout_width="374dp"
         android:layout_height="46dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
         android:text="@string/planholiday"
-        tools:layout_editor_absoluteX="13dp"
-        tools:layout_editor_absoluteY="145dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/linearLayout8"
+        app:layout_constraintVertical_bias="0.188" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

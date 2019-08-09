@@ -174,5 +174,42 @@
         app:layout_constraintTop_toBottomOf="@+id/editText11"
         app:layout_constraintVertical_bias="0.034" />
 
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="138dp"
+        android:layout_height="56dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        android:background="@drawable/btnexam"
+        android:onClick="onClick"
+        android:text="@string/addplanbtn"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.141"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.666"
+        tools:text="@string/addplanbtn" />
+
+    <Button
+        android:id="@+id/button8"
+        android:layout_width="144dp"
+        android:layout_height="56dp"
+        android:layout_marginStart="200dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        android:background="@drawable/btnexam"
+        android:text="@string/clearviewbtn"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.711"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.666"
+        tools:text="@string/clearviewbtn" />
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -123,4 +123,6 @@
     <string name="MEMO">Memories</string>
     <string name="workouttitle">Necessary Workouts</string>
     <string name="workoutdes">Exercising causes the body to make chemicals that can help a person to feel good.</string>
+    <string name="addplanbtn">ADD</string>
+    <string name="clearviewbtn">CLEAR</string>
 </resources>

@@ -8,9 +8,8 @@
 
     <LinearLayout
         android:id="@+id/linearLayout3"
-        android:layout_width="414dp"
-        android:layout_height="137dp"
-        android:layout_marginEnd="16dp"
+        android:layout_width="415dp"
+        android:layout_height="132dp"
         android:layout_marginBottom="8dp"
         android:background="@drawable/examback"
         android:orientation="horizontal"
