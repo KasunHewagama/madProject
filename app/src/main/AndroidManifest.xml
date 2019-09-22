@@ -20,7 +20,7 @@
         <activity android:name=".newaddresults" />
         <activity android:name=".addPlan" />
         <activity android:name=".Holiday_UI5"></activity>
-        <activity android:name=".newaddresults" />
+        <!--<activity android:name=".newaddresults" />-->
         <activity android:name=".newaddcourse" />
         <activity android:name=".newaddexam" />
         <activity android:name=".timetable" />
@@ -34,7 +34,9 @@
         <activity android:name=".runningHomepage" />
         <activity android:name=".walkingHomepage" />
         <activity android:name=".workoutHomepage" />
-        <activity android:name=".MainActivity">
+        <activity android:name=".MainActivity"
+                  android:screenOrientation="portrait"
+            >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
