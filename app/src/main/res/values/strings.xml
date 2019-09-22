@@ -125,4 +125,8 @@
     <string name="workoutdes">Exercising causes the body to make chemicals that can help a person to feel good.</string>
     <string name="addplanbtn">ADD</string>
     <string name="clearviewbtn">CLEAR</string>
+    <string name="hintworkoutname">Enter a Workout Name</string>
+    <string name="hintstarttime">Enter a Start time</string>
+    <string name="hintendtime">Enter a End Time</string>
+    <string name="hintdist">Enter a Distance</string>
 </resources>
