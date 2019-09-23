@@ -52,7 +52,7 @@
         app:layout_constraintVertical_bias="0.062" />
 
     <Button
-        android:id="@+id/button2"
+        android:id="@+id/btnaddA"
         android:layout_width="138dp"
         android:layout_height="56dp"
         android:layout_marginStart="8dp"
@@ -70,7 +70,7 @@
         tools:text="@string/btnupdate" />
 
     <Button
-        android:id="@+id/button8"
+        android:id="@+id/btnclrA"
         android:layout_width="144dp"
         android:layout_height="56dp"
         android:layout_marginStart="200dp"

@@ -54,7 +54,7 @@
         tools:text="@string/addWorkoutName" />
 
     <EditText
-        android:id="@+id/editText4"
+        android:id="@+id/workoutnameA"
         android:layout_width="184dp"
         android:layout_height="43dp"
         android:layout_marginStart="8dp"
@@ -90,14 +90,17 @@
         android:layout_width="184dp"
         android:layout_height="40dp"
         android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
         android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
         android:ems="10"
         android:hint="@string/hintstarttime"
         android:inputType="time"
         android:textSize="16sp"
-        app:layout_constraintBaseline_toBaselineOf="@+id/textView14"
+        app:layout_constraintBottom_toTopOf="@+id/editText11"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/textView14" />
+        app:layout_constraintStart_toEndOf="@+id/textView14"
+        app:layout_constraintTop_toBottomOf="@+id/workoutnameA" />
 
     <TextView
         android:id="@+id/textView15"
@@ -158,13 +161,14 @@
         android:ems="10"
         android:hint="@string/hintdist"
         android:inputType="number"
+        android:textSize="16sp"
         app:layout_constraintBaseline_toBaselineOf="@+id/textView16"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toEndOf="@+id/textView16" />
 
     <Button
-        android:id="@+id/button2"
+        android:id="@+id/btnaddA"
         android:layout_width="138dp"
         android:layout_height="56dp"
         android:layout_marginStart="8dp"
@@ -172,14 +176,14 @@
         android:background="@drawable/btnexam"
         android:onClick="onClick"
         android:text="@string/addplanbtn"
-        app:layout_constraintBaseline_toBaselineOf="@+id/button8"
+        app:layout_constraintBaseline_toBaselineOf="@+id/btnclrA"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.141"
         app:layout_constraintStart_toStartOf="parent"
         tools:text="@string/addplanbtn" />
 
     <Button
-        android:id="@+id/button8"
+        android:id="@+id/btnclrA"
         android:layout_width="144dp"
         android:layout_height="56dp"
         android:layout_marginStart="200dp"
@@ -195,6 +199,31 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.859"
         tools:text="@string/clearviewbtn" />
+
+    <Button
+        android:id="@+id/starttimeA"
+        android:layout_width="50dp"
+        android:layout_height="30dp"
+        android:text="@string/starttime"
+        app:layout_constraintBottom_toBottomOf="@+id/editText10"
+        app:layout_constraintEnd_toEndOf="@+id/editText10"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="@+id/editText10"
+        app:layout_constraintTop_toTopOf="@+id/editText10"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <Button
+        android:id="@+id/endtimeA"
+        android:layout_width="50dp"
+        android:layout_height="30dp"
+        android:text="@string/endtimea"
+        app:layout_constraintBottom_toBottomOf="@+id/editText11"
+        app:layout_constraintEnd_toEndOf="@+id/editText11"
+        app:layout_constraintHorizontal_bias="0.992"
+        app:layout_constraintStart_toStartOf="@+id/editText11"
+        app:layout_constraintTop_toTopOf="@+id/editText11"
+        app:layout_constraintVertical_bias="0.0"
+        tools:text="@string/endtimea" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
