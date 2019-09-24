@@ -4,8 +4,25 @@ import java.util.Date;
 
 public class addPlanA {
     private String workoutName;
-    private Date startingTime;
+    private String startingTime;
+    private String endingTime;
+    private int distance;
 
+    public String getEndingTime() {
+        return endingTime;
+    }
+
+    public void setEndingTime(String endingTime) {
+        this.endingTime = endingTime;
+    }
+
+    public int getDistance() {
+        return distance;
+    }
+
+    public void setDistance(int distance) {
+        this.distance = distance;
+    }
 //private Date endingTime;
 
     public addPlanA() {
@@ -19,11 +36,11 @@ public class addPlanA {
         this.workoutName = workoutName;
     }
 
-    public Date getStartingTime() {
+    public String getStartingTime() {
         return startingTime;
     }
 
-    public void setStartingTime(Date startingTime) {
+    public void setStartingTime(String startingTime) {
         this.startingTime = startingTime;
     }
 
