@@ -6,7 +6,6 @@ import androidx.cardview.widget.CardView;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
-import android.widget.Switch;
 
 public class timetable extends AppCompatActivity implements View.OnClickListener {
 
@@ -31,7 +30,7 @@ public class timetable extends AppCompatActivity implements View.OnClickListener
 
         switch(view.getId())
         {
-            case R.id.cardId001 : i = new Intent(this,newaddcourse.class);startActivity(i);
+            case R.id.cardId001 : i = new Intent(this, addcoursehomepage.class);startActivity(i);
             break;
 
             case R.id.cardId002 : i = new Intent(this,newaddexam.class);startActivity(i);

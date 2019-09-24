@@ -132,4 +132,8 @@
     <string name="hintdist">Enter a Distance</string>
     <string name="starttime">*</string>
     <string name="endtimea">*</string>
+    <string name="UpadteAC">UPDATE</string>
+    <string name="ViewAC">View Course Plan</string>
+    <string name="coursehomepage">Course</string>
+    <string name="viewcourseAc">View Course</string>
 </resources>
