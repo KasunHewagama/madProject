@@ -202,7 +202,7 @@
                 app:srcCompat="@drawable/place" />
 
             <EditText
-                android:id="@+id/editText15"
+                android:id="@+id/subjectAC"
                 android:layout_width="260dp"
                 android:layout_height="94dp"
                 android:layout_marginStart="110dp"
