@@ -56,8 +56,6 @@ public class addPlan extends AppCompatActivity implements View.OnClickListener, 
 
         btnadd = findViewById(R.id.btnaddA);
         btnclr = findViewById(R.id.btnclrA);
-        btnstrtm = findViewById(R.id.starttimeA);
-        btnendtm = findViewById(R.id.endtimeA);
 
 
         aPA = new addPlanA();
