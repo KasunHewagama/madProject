@@ -130,4 +130,6 @@
     <string name="hintstarttime">Enter a Start time</string>
     <string name="hintendtime">Enter a End Time</string>
     <string name="hintdist">Enter a Distance</string>
+    <string name="starttime">*</string>
+    <string name="endtimea">*</string>
 </resources>
