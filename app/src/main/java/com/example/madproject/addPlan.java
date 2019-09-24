@@ -23,13 +23,16 @@ import java.text.DateFormat;
 import java.util.Calendar;
 
 
-public class addPlan extends AppCompatActivity implements View.OnClickListener, TimePickerDialog.OnTimeSetListener {
+public class addPlan extends AppCompatActivity implements View.OnClickListener {
 
-//    private Button add;
+
     EditText txtworkout,txtstrtm,txtendtm,txtdist;
-    Button btnadd,btnclr,btnstrtm,btnendtm,add;
-    int hour,minute;
-    int hourFinal, minuteFinal;
+    Button btnadd,btnclr,add;
+    TimePickerDialog timePickerDialog;
+    Calendar calendar;
+    int currentHour;
+    int currentMinute;
+    String amPm;
 
     DatabaseReference dbRefw;
     addPlanA aPA;
@@ -56,8 +59,6 @@ public class addPlan extends AppCompatActivity implements View.OnClickListener, 
 
         btnadd = findViewById(R.id.btnaddA);
         btnclr = findViewById(R.id.btnclrA);
-        btnstrtm = findViewById(R.id.starttimeA);
-        btnendtm = findViewById(R.id.endtimeA);
 
 
         aPA = new addPlanA();
@@ -67,6 +68,55 @@ public class addPlan extends AppCompatActivity implements View.OnClickListener, 
 
         //define onClickListner method for each page
         add.setOnClickListener(this);
+
+
+        txtstrtm.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                calendar = Calendar.getInstance();
+                currentHour = calendar.get(Calendar.HOUR_OF_DAY);
+                currentMinute = calendar.get(Calendar.MINUTE);
+
+                timePickerDialog = new TimePickerDialog(addPlan.this, new TimePickerDialog.OnTimeSetListener() {
+                    @Override
+                    public void onTimeSet(TimePicker timePicker, int hourOfDay, int minutes) {
+                        if(hourOfDay >= 12){
+                            hourOfDay =  hourOfDay - 12;
+                            amPm = "PM";
+                        }else {
+                            amPm = "AM";
+                        }
+                        txtstrtm.setText(String.format("%02d:%02d",hourOfDay,minutes) + amPm);
+                    }
+                },currentHour,currentMinute,true);
+                timePickerDialog.show();
+            }
+
+        });
+
+        txtendtm.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                calendar = Calendar.getInstance();
+                currentHour = calendar.get(Calendar.HOUR_OF_DAY);
+                currentMinute = calendar.get(Calendar.MINUTE);
+
+                timePickerDialog = new TimePickerDialog(addPlan.this, new TimePickerDialog.OnTimeSetListener() {
+                    @Override
+                    public void onTimeSet(TimePicker timePicker, int hourOfDay, int minutes) {
+                        if (hourOfDay >= 12){
+                            hourOfDay = hourOfDay - 12;
+                            amPm = "PM";
+                        }else {
+                            amPm = "AM";
+                        }
+                        txtendtm.setText(String.format("%02d:%02d",hourOfDay,minutes) + amPm);
+                    }
+                },currentHour,currentMinute,false);
+                timePickerDialog.show();
+            }
+        });
+
 
         btnclr.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -109,11 +159,16 @@ public class addPlan extends AppCompatActivity implements View.OnClickListener, 
 
                 }
             }
+
+
         });
 
 
 
+
     }
+
+
 
 
     @Override
@@ -126,14 +181,6 @@ public class addPlan extends AppCompatActivity implements View.OnClickListener, 
                 break;
             default:break;
         }
-
-        Calendar c = Calendar.getInstance();
-        hour = c.get(Calendar.HOUR_OF_DAY);
-        minute = c.get(Calendar.MINUTE);
-
-//        TimePickerDialog timePickerDialog = new TimePickerDialog(addPlan.this, addPlan.this,
-//                hour, minute, DateFormat.getTimeInstance(this)) ;
-//        timePickerDialog.show();
 
 
 
@@ -165,14 +212,8 @@ public class addPlan extends AppCompatActivity implements View.OnClickListener, 
 
     }
 
-    @Override
-    public void onTimeSet(TimePicker timePicker, int i, int i1) {
-        hourFinal = i;
-        minuteFinal = i1;
 
-        txtstrtm.setText(hourFinal+":"+minuteFinal);
 
-    }
 
 
 }
