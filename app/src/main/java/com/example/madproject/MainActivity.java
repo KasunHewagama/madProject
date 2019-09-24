@@ -10,6 +10,9 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.Switch;
 
+import com.google.firebase.auth.FirebaseAuth;
+import com.google.firebase.auth.FirebaseUser;
+
 
 public class MainActivity extends AppCompatActivity implements  View.OnClickListener {
 
@@ -52,5 +55,18 @@ public class MainActivity extends AppCompatActivity implements  View.OnClickList
             default:break;
         }
 
+    }
+
+    @Override
+    protected void onStart() {
+        super.onStart();
+        FirebaseUser user = FirebaseAuth.getInstance().getCurrentUser();
+        if (user == null) {
+            Intent intent = new Intent(MainActivity.this,loginact.class);
+            startActivity(intent);
+            finish();
+        } else {
+            // No user is signed in
+        }
     }
 }

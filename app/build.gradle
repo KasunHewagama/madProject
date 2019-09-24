@@ -18,6 +18,10 @@ android {
             proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
         }
     }
+    compileOptions {
+        sourceCompatibility = 1.8
+        targetCompatibility = 1.8
+    }
 }
 
 dependencies {
@@ -32,8 +36,10 @@ dependencies {
     implementation 'androidx.recyclerview:recyclerview:1.1.0-beta01'
     implementation 'androidx.gridlayout:gridlayout:1.0.0'
     implementation 'com.google.android.material:material:1.0.0'
+
     implementation 'com.android.support:design:29.0.0'
     implementation 'com.google.firebase:firebase-auth:19.0.0'
     implementation 'com.google.android.gms:play-services-auth:17.0.0'
 
 }
+apply plugin: 'com.google.gms.google-services'
