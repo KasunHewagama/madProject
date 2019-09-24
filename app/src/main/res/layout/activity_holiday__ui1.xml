@@ -29,7 +29,7 @@
             android:layout_marginLeft="10dp"
             android:layout_marginTop="90dp"
             android:fontFamily="sans-serif-condensed-medium"
-            android:text="@string/HHoliday"
+            android:text="@string/holidayplan"
             android:textColor="@color/lightgray"
             android:textSize="25sp"
             android:textStyle="normal|bold" />
