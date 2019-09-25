@@ -7,11 +7,9 @@
     tools:context=".newaddcourseview">
 
     <LinearLayout
-        android:id="@+id/linearLayout8"
-        android:layout_width="414dp"
-        android:layout_height="137dp"
-        android:layout_marginStart="8dp"
-        android:layout_marginBottom="8dp"
+        android:id="@+id/linearLayout3"
+        android:layout_width="416dp"
+        android:layout_height="175dp"
         android:background="@drawable/timetableback"
         android:orientation="vertical"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -19,90 +17,58 @@
         app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.0">
-
-        <TextView
-            android:id="@+id/textView4"
-            android:layout_width="299dp"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="@dimen/default_gap"
-            android:layout_marginTop="90dp"
-            android:fontFamily="sans-serif-medium"
-            android:text="@string/ViewAC"
-            android:textAlignment="center"
-            android:textColor="@color/lightgray"
-            android:textSize="25sp"
-            android:textStyle="normal|bold" />
-    </LinearLayout>
-
-    <TextView
-        android:id="@+id/textView18"
-        android:layout_width="383dp"
-        android:layout_height="142dp"
-        android:layout_marginStart="8dp"
-        android:layout_marginTop="8dp"
-        android:layout_marginEnd="8dp"
-        android:layout_marginBottom="8dp"
-        android:text="@string/viewdes"
-        android:textSize="36sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/linearLayout8"
-        app:layout_constraintVertical_bias="0.062" />
+        app:layout_constraintVertical_bias="0.0"></LinearLayout>
 
     <Button
-        android:id="@+id/btnaddA"
-        android:layout_width="138dp"
-        android:layout_height="56dp"
-        android:layout_marginStart="8dp"
-        android:layout_marginTop="8dp"
-        android:layout_marginEnd="8dp"
-        android:layout_marginBottom="8dp"
-        android:background="@drawable/btncourse"
-        android:text="@string/UpadteAC"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.494"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.711"
-        tools:text="@string/btnupdate" />
-
-    <Button
-        android:id="@+id/btnclrA"
-        android:layout_width="144dp"
-        android:layout_height="56dp"
-        android:layout_marginStart="8dp"
-        android:layout_marginTop="8dp"
-        android:layout_marginEnd="8dp"
-        android:layout_marginBottom="8dp"
+        android:id="@+id/btndeleteAC"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:background="@drawable/btncourse"
         android:text="@string/btndelete"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintHorizontal_bias="0.95"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.831"
-        tools:text="@string/btndelete" />
+        app:layout_constraintVertical_bias="0.957" />
 
     <Button
-        android:id="@+id/button7"
-        android:layout_width="136dp"
-        android:layout_height="60dp"
-        android:layout_marginStart="8dp"
-        android:layout_marginTop="8dp"
-        android:layout_marginEnd="8dp"
-        android:layout_marginBottom="8dp"
+        android:id="@+id/btupdateAC"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:background="@drawable/btncourse"
-        android:onClick="onClick"
-        android:text="DONE"
+        android:text="@string/UpadteAC"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintHorizontal_bias="0.476"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.954"
-        tools:text="@string/btnworkdone" />
+        app:layout_constraintVertical_bias="0.957" />
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="229dp"
+        android:layout_height="37dp"
+        android:text="@string/ViewAC"
+        android:textColor="@color/common_google_signin_btn_text_dark_focused"
+        android:textSize="25sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.07"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.269" />
+
+    <Button
+        android:id="@+id/btnviewAC"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/btncourse"
+        android:text="@string/btnview"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.099"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.957" />
 </androidx.constraintlayout.widget.ConstraintLayout>
