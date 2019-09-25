@@ -112,7 +112,7 @@ public class addPlan extends AppCompatActivity implements View.OnClickListener {
                         }
                         txtendtm.setText(String.format("%02d:%02d",hourOfDay,minutes) + amPm);
                     }
-                },currentHour,currentMinute,false);
+                },currentHour,currentMinute,true);
                 timePickerDialog.show();
             }
         });
@@ -145,19 +145,19 @@ public class addPlan extends AppCompatActivity implements View.OnClickListener {
                 } else {
                     txtworkout.setText("");
                 }
-                if (text1.isEmpty() || text2.isEmpty() || text3.isEmpty() || text4.isEmpty()) {
-                    Toast.makeText(getApplicationContext(), "Workout Name is Empty...!", Toast.LENGTH_SHORT).show();
-                    Toast.makeText(getApplicationContext(), "Starting Time is Empty...!", Toast.LENGTH_SHORT).show();
-                    Toast.makeText(getApplicationContext(), "Ending Time is Empty...!", Toast.LENGTH_SHORT).show();
-                    Toast.makeText(getApplicationContext(), "Distance is Empty...!", Toast.LENGTH_SHORT).show();
-
-                } else {
-                    txtdist.setText("");
-                    txtendtm.setText("");
-                    txtstrtm.setText("");
-                    txtworkout.setText("");
-
-                }
+//                if (text1.isEmpty() || text2.isEmpty() || text3.isEmpty() || text4.isEmpty()) {
+//                    Toast.makeText(getApplicationContext(), "Workout Name is Empty...!", Toast.LENGTH_SHORT).show();
+//                    Toast.makeText(getApplicationContext(), "Starting Time is Empty...!", Toast.LENGTH_SHORT).show();
+//                    Toast.makeText(getApplicationContext(), "Ending Time is Empty...!", Toast.LENGTH_SHORT).show();
+//                    Toast.makeText(getApplicationContext(), "Distance is Empty...!", Toast.LENGTH_SHORT).show();
+//
+//                } else {
+//                    txtdist.setText("");
+//                    txtendtm.setText("");
+//                    txtstrtm.setText("");
+//                    txtworkout.setText("");
+//
+//                }
             }
 
 
