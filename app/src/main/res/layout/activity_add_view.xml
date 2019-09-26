@@ -33,6 +33,8 @@
             android:textColor="@color/lightgray"
             android:textSize="25sp"
             android:textStyle="normal|bold" />
+
+
     </LinearLayout>
 
     <Button
@@ -97,9 +99,10 @@
         android:layout_height="490dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.483"
+        app:layout_constraintHorizontal_bias="0.545"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/linearLayout8"
-        app:layout_constraintVertical_bias="0.041" />
+        app:layout_constraintVertical_bias="0.057" />
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>
