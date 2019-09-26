@@ -25,7 +25,7 @@ public class loginact extends AppCompatActivity{
     private EditText logingEmail;
     private EditText logingPass;
     private TextView signup;
-    private Button bt,logingbtn;
+    private Button bt,logingbtn,crtBtn,logout;
     private ProgressBar logbar;
     private FirebaseAuth mAuth;
     @Override
@@ -37,10 +37,11 @@ public class loginact extends AppCompatActivity{
 
         logingEmail =(EditText) findViewById(R.id.editText5);
         logingPass =(EditText) findViewById(R.id.editText6);
-        signup = (TextView)findViewById(R.id.textView35);
-        bt = (Button)findViewById(R.id.button17) ;
+         bt = (Button)findViewById(R.id.button17) ;
         logingbtn=(Button)findViewById(R.id.button9);
+
         logbar=(ProgressBar)findViewById(R.id.progressBarlog) ;
+        crtBtn=(Button) findViewById(R.id.button8);
         /*signup.setOnClickListener(this);
         bt.setOnClickListener(this);*/
 
@@ -65,6 +66,7 @@ public class loginact extends AppCompatActivity{
                                Toast.makeText(loginact.this,"Error :" + e, Toast.LENGTH_LONG).show() ;
 
                            }
+                           
                             logbar.setVisibility(View.INVISIBLE);
                         }
                     });
@@ -73,6 +75,16 @@ public class loginact extends AppCompatActivity{
 
                 }
 
+            }
+        });
+
+        crtBtn.setOnClickListener(new View.OnClickListener(){
+
+
+            @Override
+            public void onClick(View view) {
+                Intent i= new Intent(loginact.this,signup.class);
+                startActivity(i);
             }
         });
 
@@ -112,8 +124,12 @@ public class loginact extends AppCompatActivity{
     }
 
     private void sendToMain() {
-        Intent mainIntent= new Intent(loginact.this,MainActivity.class);
-        startActivity(mainIntent);
-        finish();
+       Intent mainIntent= new Intent(loginact.this,MainActivity.class);
+       startActivity(mainIntent);
+       finish();
+
+
+        
+        
     }
 }

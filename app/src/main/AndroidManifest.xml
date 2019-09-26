@@ -9,7 +9,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".feedcom"></activity>
+        <activity android:name=".feedcom" />
         <activity android:name=".profile" />
         <activity android:name=".findfriends" />
         <activity android:name=".signup" />
@@ -19,8 +19,7 @@
         <activity android:name=".shareactivity" />
         <activity android:name=".newaddresults" />
         <activity android:name=".addPlan" />
-        <activity android:name=".Holiday_UI5"></activity>
-        <!--<activity android:name=".newaddresults" />-->
+        <activity android:name=".Holiday_UI5" /> <!-- <activity android:name=".newaddresults" /> -->
         <activity android:name=".newaddcourse" />
         <activity android:name=".newaddexam" />
         <activity android:name=".timetable" />
@@ -34,9 +33,9 @@
         <activity android:name=".runningHomepage" />
         <activity android:name=".walkingHomepage" />
         <activity android:name=".workoutHomepage" />
-        <activity android:name=".MainActivity"
-                  android:screenOrientation="portrait"
-            >
+        <activity
+            android:name=".MainActivity"
+            android:screenOrientation="portrait">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
