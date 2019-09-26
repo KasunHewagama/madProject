@@ -3,6 +3,7 @@ package com.example.madproject;
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.text.TextUtils;
 import android.view.View;
@@ -29,6 +30,7 @@ public class signup extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_signup);
 
+        mAuth=FirebaseAuth.getInstance();
         email = (EditText) findViewById(R.id.editText7);
         pwrd = (EditText) findViewById(R.id.editText13);
         cprwd = (EditText)findViewById(R.id.editText14);
@@ -41,10 +43,11 @@ public class signup extends AppCompatActivity {
                 String pwrdx =pwrd.getText().toString();
                 String cpwrdx =pwrd.getText().toString();
 
-                if(TextUtils.isEmpty(emailx) && !TextUtils.isEmpty(pwrdx) && !TextUtils.isEmpty(cpwrdx)){
+
+                if(!TextUtils.isEmpty(emailx) && !TextUtils.isEmpty(pwrdx) && !TextUtils.isEmpty(cpwrdx)){
                     if(pwrdx.equals(cpwrdx)){
 
-                        mAuth.createUserWithEmailAndPassword(emailx,pwrdx).addOnCompleteListener(new OnCompleteListener<AuthResult>() {
+                        mAuth.createUserWithEmailAndPassword(emailx, pwrdx).addOnCompleteListener(new OnCompleteListener<AuthResult>() {
                             @Override
                             public void onComplete(@NonNull Task<AuthResult> task) {
                                 if(task.isSuccessful()){
@@ -71,12 +74,15 @@ public class signup extends AppCompatActivity {
     protected void onStart() {
         super.onStart();
         FirebaseUser cuser = mAuth.getCurrentUser();
-        if(cuser!=null){
+        if(cuser != null){
             sendToMain();
 
         }
     }
 
     private void sendToMain() {
+        Intent mainIntent= new Intent(signup.this,MainActivity.class);
+        startActivity(mainIntent);
+        finish();
     }
 }

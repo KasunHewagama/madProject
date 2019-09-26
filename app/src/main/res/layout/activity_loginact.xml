@@ -56,6 +56,7 @@
                 android:background="#0FFFFF"
 
 
+                android:clickable="true"
                 android:text="@string/btnlogin" />
 
             <EditText
