@@ -86,7 +86,7 @@
         tools:text="@string/addstarttime" />
 
     <EditText
-        android:id="@+id/editText10"
+        android:id="@+id/txtstarttimeA"
         android:layout_width="184dp"
         android:layout_height="40dp"
         android:layout_marginStart="8dp"
@@ -97,13 +97,13 @@
         android:hint="@string/hintstarttime"
         android:inputType="time"
         android:textSize="16sp"
-        app:layout_constraintBottom_toTopOf="@+id/editText11"
+        app:layout_constraintBottom_toTopOf="@+id/txtendtimeA"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/textView14"
         app:layout_constraintTop_toBottomOf="@+id/workoutnameA" />
 
     <TextView
-        android:id="@+id/textView15"
+        android:id="@+id/Isdate"
         android:layout_width="203dp"
         android:layout_height="25dp"
         android:layout_marginStart="8dp"
@@ -121,7 +121,7 @@
         tools:text="@string/addendtime" />
 
     <EditText
-        android:id="@+id/editText11"
+        android:id="@+id/txtendtimeA"
         android:layout_width="183dp"
         android:layout_height="41dp"
         android:layout_marginStart="8dp"
@@ -130,12 +130,12 @@
         android:hint="@string/hintendtime"
         android:inputType="time"
         android:textSize="16sp"
-        app:layout_constraintBaseline_toBaselineOf="@+id/textView15"
+        app:layout_constraintBaseline_toBaselineOf="@+id/Isdate"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/textView15" />
+        app:layout_constraintStart_toEndOf="@+id/Isdate" />
 
     <TextView
-        android:id="@+id/textView16"
+        android:id="@+id/Iedate"
         android:layout_width="202dp"
         android:layout_height="26dp"
         android:layout_marginStart="8dp"
@@ -148,12 +148,12 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.005"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView15"
+        app:layout_constraintTop_toBottomOf="@+id/Isdate"
         app:layout_constraintVertical_bias="0.229"
         tools:text="@string/adddistance" />
 
     <EditText
-        android:id="@+id/editText12"
+        android:id="@+id/txtdistanceA"
         android:layout_width="183dp"
         android:layout_height="40dp"
         android:layout_marginStart="8dp"
@@ -162,10 +162,10 @@
         android:hint="@string/hintdist"
         android:inputType="number"
         android:textSize="16sp"
-        app:layout_constraintBaseline_toBaselineOf="@+id/textView16"
+        app:layout_constraintBaseline_toBaselineOf="@+id/Iedate"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="1.0"
-        app:layout_constraintStart_toEndOf="@+id/textView16" />
+        app:layout_constraintStart_toEndOf="@+id/Iedate" />
 
     <Button
         android:id="@+id/btnaddA"
@@ -191,6 +191,7 @@
         android:layout_marginEnd="8dp"
         android:layout_marginBottom="8dp"
         android:background="@drawable/btnexam"
+        android:onClick="onClick"
         android:text="@string/clearviewbtn"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -199,31 +200,6 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.859"
         tools:text="@string/clearviewbtn" />
-
-    <Button
-        android:id="@+id/starttimeA"
-        android:layout_width="50dp"
-        android:layout_height="30dp"
-        android:text="@string/starttime"
-        app:layout_constraintBottom_toBottomOf="@+id/editText10"
-        app:layout_constraintEnd_toEndOf="@+id/editText10"
-        app:layout_constraintHorizontal_bias="1.0"
-        app:layout_constraintStart_toStartOf="@+id/editText10"
-        app:layout_constraintTop_toTopOf="@+id/editText10"
-        app:layout_constraintVertical_bias="0.0" />
-
-    <Button
-        android:id="@+id/endtimeA"
-        android:layout_width="50dp"
-        android:layout_height="30dp"
-        android:text="@string/endtimea"
-        app:layout_constraintBottom_toBottomOf="@+id/editText11"
-        app:layout_constraintEnd_toEndOf="@+id/editText11"
-        app:layout_constraintHorizontal_bias="0.992"
-        app:layout_constraintStart_toStartOf="@+id/editText11"
-        app:layout_constraintTop_toTopOf="@+id/editText11"
-        app:layout_constraintVertical_bias="0.0"
-        tools:text="@string/endtimea" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

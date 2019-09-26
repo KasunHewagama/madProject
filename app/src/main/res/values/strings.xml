@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Shedular</string>
+    <string name="app_name">madProject</string>
 
     <string name="btn1">Add Course</string>
     <string name="btn2">Add Exam</string>
@@ -60,7 +60,7 @@
     <string name="input5">EndDate</string>
     <string name="inputST">Time</string>
     <string name="inputET">Time</string>
-    <string name="HHoliday">Holiday Shedule</string>
+    <string name="HHoliday">Holiday Planing</string>
     <string name="Plan">Planning</string>
     <string name="todo">Work ToDo</string>
     <string name="memories">Memories</string>
@@ -125,11 +125,13 @@
     <string name="workoutdes">Exercising causes the body to make chemicals that can help a person to feel good.</string>
     <string name="addplanbtn">ADD</string>
     <string name="clearviewbtn">CLEAR</string>
-    <string name="holidayplan">Holiday Planing</string>
     <string name="hintworkoutname">Enter a Workout Name</string>
     <string name="hintstarttime">Enter a Start time</string>
     <string name="hintendtime">Enter a End Time</string>
     <string name="hintdist">Enter a Distance</string>
+    <string name="addbtn">ADD</string>
+    <string name="holidayplan">Holiday Planinig</string>
+
     <string name="starttime">*</string>
     <string name="endtimea">*</string>
     <string name="title_activity_blogfeed">blogfeed</string>
