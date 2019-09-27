@@ -75,6 +75,7 @@ public class feedcom extends AppCompatActivity {
                 DelCom.setGetGvalue_Description(carrayList.get(position));
             }
         });
+        //delete function here
         del.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -87,6 +88,7 @@ public class feedcom extends AppCompatActivity {
                         public void onDataChange(@NonNull DataSnapshot dataSnapshot) {
                             href.child(com).removeValue();
                         }
+
 
                         @Override
                         public void onCancelled(@NonNull DatabaseError databaseError) {
