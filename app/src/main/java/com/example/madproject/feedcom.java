@@ -75,7 +75,7 @@ public class feedcom extends AppCompatActivity {
                 DelCom.setGetGvalue_Description(carrayList.get(position));
             }
         });
-        //new delete 
+        //new delete  new
         del.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
