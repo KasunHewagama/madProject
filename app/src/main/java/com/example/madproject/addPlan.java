@@ -2,14 +2,12 @@ package com.example.madproject;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-import android.app.DatePickerDialog;
 import android.app.TimePickerDialog;
 import android.content.Intent;
 import android.os.Bundle;
 import android.text.TextUtils;
 import android.view.View;
 import android.widget.Button;
-import android.widget.DatePicker;
 import android.widget.EditText;
 import android.widget.TimePicker;
 import android.widget.Toast;
@@ -17,9 +15,6 @@ import android.widget.Toast;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 
-import org.w3c.dom.Text;
-
-import java.text.DateFormat;
 import java.util.Calendar;
 
 
@@ -57,14 +52,14 @@ public class addPlan extends AppCompatActivity implements View.OnClickListener {
         txtdist = findViewById(R.id.txtdistanceA);
 
 
-        btnadd = findViewById(R.id.btnaddA);
+        btnadd = findViewById(R.id.addBtn);
         btnclr = findViewById(R.id.btnclrA);
 
 
         aPA = new addPlanA();
 
        // define variables
-        add = (Button) findViewById(R.id.btnaddA);
+        add = (Button) findViewById(R.id.addBtn);
 
         //define onClickListner method for each page
         add.setOnClickListener(this);
@@ -185,32 +180,33 @@ public class addPlan extends AppCompatActivity implements View.OnClickListener {
 
 
         dbRefw = FirebaseDatabase.getInstance().getReference().child("Workout");
-        try {
-            if (TextUtils.isEmpty(txtworkout.getText().toString()))
-                Toast.makeText(getApplicationContext(), "Please enter a Name", Toast.LENGTH_SHORT).show();
-            else if (TextUtils.isEmpty(txtstrtm.getText().toString()))
-                Toast.makeText(getApplicationContext(),"Please enter a Starting Time",Toast.LENGTH_SHORT).show();
-            else if (TextUtils.isEmpty(txtendtm.getText().toString()))
-                Toast.makeText(getApplicationContext(),"Please enter a Ending Time",Toast.LENGTH_SHORT).show();
-            else if (TextUtils.isEmpty(txtdist.getText().toString()))
-                Toast.makeText(getApplicationContext(),"Please enter a Distance",Toast.LENGTH_SHORT).show();
-            else {
-                aPA.setWorkoutName(txtworkout.getText().toString().trim());
-                aPA.setStartingTime(txtstrtm.getText().toString().trim());
-                aPA.setEndingTime(txtendtm.getText().toString().trim());
-                aPA.setDistance(Integer.parseInt(txtdist.getText().toString().trim()));
-                dbRefw.push().setValue(aPA);
 
-                Toast.makeText(getApplicationContext(),"Data Saved Successfully",Toast.LENGTH_SHORT).show();
-                clearControls();
+
+            try {
+                if (TextUtils.isEmpty(txtworkout.getText().toString()))
+                    Toast.makeText(getApplicationContext(), "Please enter a Name", Toast.LENGTH_SHORT).show();
+                else if (TextUtils.isEmpty(txtstrtm.getText().toString()))
+                    Toast.makeText(getApplicationContext(), "Please enter a Starting Time", Toast.LENGTH_SHORT).show();
+                else if (TextUtils.isEmpty(txtendtm.getText().toString()))
+                    Toast.makeText(getApplicationContext(), "Please enter a Ending Time", Toast.LENGTH_SHORT).show();
+                else if (TextUtils.isEmpty(txtdist.getText().toString()))
+                    Toast.makeText(getApplicationContext(), "Please enter a Distance", Toast.LENGTH_SHORT).show();
+                else {
+                    aPA.setWorkoutName(txtworkout.getText().toString().trim());
+                    aPA.setStartingTime(txtstrtm.getText().toString().trim());
+                    aPA.setEndingTime(txtendtm.getText().toString().trim());
+                    aPA.setDistance(Integer.parseInt(txtdist.getText().toString().trim()));
+//                    dbRefw.push().setValue(aPA);
+                    dbRefw.child(txtworkout.getText().toString()).setValue(aPA);
+
+                    Toast.makeText(getApplicationContext(), "Data Saved Successfully", Toast.LENGTH_SHORT).show();
+                    clearControls();
+                }
+
+            } catch (NumberFormatException e) {
+                Toast.makeText(getApplicationContext(), "Invalid Data Inserted", Toast.LENGTH_SHORT).show();
             }
-
         }
-        catch (NumberFormatException e){
-            Toast.makeText(getApplicationContext(),"Invalid Data Inserted",Toast.LENGTH_SHORT).show();
-        }
-
-    }
 
 
 

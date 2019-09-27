@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Shedular</string>
+    <string name="app_name">madProject</string>
 
     <string name="btn1">Add Course</string>
     <string name="btn2">Add Exam</string>
@@ -130,10 +130,17 @@
     <string name="hintstarttime">Enter a Start time</string>
     <string name="hintendtime">Enter a End Time</string>
     <string name="hintdist">Enter a Distance</string>
-    <string name="starttime">*</string>
-    <string name="endtimea">*</string>
+
     <string name="UpadteAC">UPDATE</string>
     <string name="ViewAC">View Course Plan</string>
     <string name="coursehomepage">Course</string>
     <string name="viewcourseAc">View Course</string>
+    <string name="addbtn">ADD</string>
+
+    <string name="starttime">*</string>
+    <string name="endtimea">*</string>
+    <string name="title_activity_blogfeed">blogfeed</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
 </resources>

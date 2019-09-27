@@ -32,9 +32,9 @@ public class Holiday_UI3 extends AppCompatActivity /*implements View.OnClickList
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_holiday__ui3);
         HviewRef = FirebaseDatabase.getInstance().getReference("HolidayData");
-        listView = (ListView) findViewById(R.id.listviewtxt);
+       // listView = (ListView) findViewById(R.id.listviewtxt);
         arrayAdapter = new ArrayAdapter<String>(this, android.R.layout.simple_list_item_1, arrayList);
-        listView.setAdapter(arrayAdapter);
+     //   listView.setAdapter(arrayAdapter);
         HviewRef.addChildEventListener(new ChildEventListener() {
             @Override
             public void onChildAdded(@NonNull DataSnapshot dataSnapshot, @Nullable String s) {
