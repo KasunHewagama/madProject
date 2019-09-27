@@ -33,7 +33,7 @@ public class timetable extends AppCompatActivity implements View.OnClickListener
             case R.id.cardId001 : i = new Intent(this, addcoursehomepage.class);startActivity(i);
             break;
 
-            case R.id.cardId002 : i = new Intent(this,newaddexam.class);startActivity(i);
+            case R.id.cardId002 : i = new Intent(this,newaddexamhomepage.class);startActivity(i);
             break;
 
             case R.id.cardId003 : i =new Intent(this,newaddresults.class);startActivity(i);

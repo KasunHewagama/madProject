@@ -1,12 +1,19 @@
 package com.example.madproject;
 
+import android.app.TimePickerDialog;
 public class addcoursemodel {
  private String subject;
  private String teacher;
  private String place;
+ private String time;
  private String date;
 
-    public addcoursemodel() {
+    public addcoursemodel(String subject, String teacher, String place, String time, String date) {
+        this.subject = subject;
+        this.teacher = teacher;
+        this.place = place;
+        this.time = time;
+        this.date = date;
     }
 
     public String getSubject() {
@@ -33,11 +40,26 @@ public class addcoursemodel {
         this.place = place;
     }
 
+    public String getTime() {
+        return time;
+    }
+
+    public void setTime(String time) {
+        this.time = time;
+    }
+
     public String getDate() {
         return date;
     }
 
+    public addcoursemodel() {
+    }
+
     public void setDate(String date) {
         this.date = date;
+    }
+
+    public String toString(){
+        return this.subject+" \n "+teacher+" \n "+place+" \n "+date;
     }
 }

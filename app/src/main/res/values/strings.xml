@@ -135,6 +135,11 @@
     <string name="ViewAC">View Course Plan</string>
     <string name="coursehomepage">Course</string>
     <string name="viewcourseAc">View Course</string>
+    <string name="timeAC">Select Time</string>
+    <string name="dataAC">Select Date</string>
+    <string name="viewexam">View Exam</string>
+    <string name="xammmm">Exam</string>
+    <string name="exam">Exam View</string>
     <string name="addbtn">ADD</string>
 
     <string name="Search">SEARCH</string>
