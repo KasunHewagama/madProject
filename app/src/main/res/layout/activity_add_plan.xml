@@ -168,7 +168,7 @@
         app:layout_constraintStart_toEndOf="@+id/Iedate" />
 
     <Button
-        android:id="@+id/btnaddA"
+        android:id="@+id/addBtn"
         android:layout_width="138dp"
         android:layout_height="56dp"
         android:layout_marginStart="8dp"
