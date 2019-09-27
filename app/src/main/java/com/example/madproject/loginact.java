@@ -3,8 +3,10 @@ package com.example.madproject;
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
+import android.os.Vibrator;
 import android.text.TextUtils;
 import android.view.View;
 import android.widget.Button;
@@ -53,12 +55,17 @@ public class loginact extends AppCompatActivity{
 
                 if(!TextUtils.isEmpty(loginEmailText) && !TextUtils.isEmpty(loginPassText)){
                     logbar.setVisibility(View.VISIBLE);
-
+                    Vibrator vibe = (Vibrator) getSystemService(Context.VIBRATOR_SERVICE);
                     mAuth.signInWithEmailAndPassword(loginEmailText,loginPassText).addOnCompleteListener(new OnCompleteListener<AuthResult>() {
                         @Override
                         public void onComplete(@NonNull Task<AuthResult> task) {
                            if(task.isSuccessful()){
+
+
+
+
                                 sendToMain();
+                               vibe.vibrate(500);
                            }
                            else{
 
@@ -77,6 +84,9 @@ public class loginact extends AppCompatActivity{
 
             }
         });
+
+
+
 
         crtBtn.setOnClickListener(new View.OnClickListener(){
 
