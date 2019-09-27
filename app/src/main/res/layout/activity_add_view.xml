@@ -38,7 +38,7 @@
     </LinearLayout>
 
     <Button
-        android:id="@+id/btnaddA"
+        android:id="@+id/addUpdate"
         android:layout_width="138dp"
         android:layout_height="56dp"
         android:layout_marginStart="8dp"
@@ -76,7 +76,7 @@
 <!--        tools:text="@string/btnworkdone" />-->
 
     <Button
-        android:id="@+id/btnclrA"
+        android:id="@+id/btnDelete"
         android:layout_width="144dp"
         android:layout_height="56dp"
         android:layout_marginStart="200dp"
