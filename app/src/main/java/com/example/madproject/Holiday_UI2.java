@@ -45,7 +45,7 @@ public class Holiday_UI2 extends AppCompatActivity implements View.OnClickListen
         setContentView(R.layout.activity_holiday__ui2);
 
 
-        pname = findViewById(R.id.Ipname);
+       // pname = findViewById(R.id.Ipname);
         mTv1 = (TextView) findViewById(R.id.Isdate);
         mTv2 = (TextView) findViewById(R.id.Iedate);
         //pdiscription= (EditText) findViewById(R.id.Idiscription2);
@@ -53,8 +53,8 @@ public class Holiday_UI2 extends AppCompatActivity implements View.OnClickListen
 
         mBtn1 = (Button) findViewById(R.id.calpic);
         mBtn2 = (Button) findViewById(R.id.enddate);
-        maddBtn = findViewById(R.id.btnadd);
-        mclearBtn=findViewById(R.id.btnclear);
+       // maddBtn = findViewById(R.id.btnadd);
+        //mclearBtn=findViewById(R.id.btnclear);
         holidayData = new HolidayData();
         //maddBtn = (Button) findViewById(R.id.btnadd);
         mBtn1.setOnClickListener(new View.OnClickListener() {

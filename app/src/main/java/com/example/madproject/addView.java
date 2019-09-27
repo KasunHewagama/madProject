@@ -29,10 +29,8 @@ public class addView extends AppCompatActivity {
     ArrayList<String> arrayList = new ArrayList<>();
     ArrayAdapter<String> arrayAdapter;
     Button btnDelete;
-    Button btnUpdate;
     wdelplan wDelPlan;
 
-    //private Button done;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -81,9 +79,6 @@ public class addView extends AppCompatActivity {
             }
         });
 
-        btnUpdate.setOnClickListener(view -> {
-           // if ()
-        });
 
 
 

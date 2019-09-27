@@ -197,7 +197,7 @@ public class addPlan extends AppCompatActivity implements View.OnClickListener {
                     aPA.setEndingTime(txtendtm.getText().toString().trim());
                     aPA.setDistance(Integer.parseInt(txtdist.getText().toString().trim()));
 //                    dbRefw.push().setValue(aPA);
-                    dbRefw.child("workout6").setValue(aPA);
+                    dbRefw.child(txtworkout.getText().toString()).setValue(aPA);
 
                     Toast.makeText(getApplicationContext(), "Data Saved Successfully", Toast.LENGTH_SHORT).show();
                     clearControls();
