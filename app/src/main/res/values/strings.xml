@@ -60,7 +60,7 @@
     <string name="input5">EndDate</string>
     <string name="inputST">Time</string>
     <string name="inputET">Time</string>
-    <string name="HHoliday">Holiday Shedule</string>
+    <string name="HHoliday">Holiday Planing</string>
     <string name="Plan">Planning</string>
     <string name="todo">Work ToDo</string>
     <string name="memories">Memories</string>
@@ -136,6 +136,11 @@
     <string name="coursehomepage">Course</string>
     <string name="viewcourseAc">View Course</string>
     <string name="addbtn">ADD</string>
+
+    <string name="Search">SEARCH</string>
+    <string name="sbtn">SEARCH</string>
+    <string name="dis">DISCRIPTION</string>
+    <string name="Dis">Discription</string>
 
     <string name="starttime">*</string>
     <string name="endtimea">*</string>

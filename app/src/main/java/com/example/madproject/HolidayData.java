@@ -1,36 +1,50 @@
 package com.example.madproject;
 
-public class HolidayData {
+import java.util.Date;
 
-    private String pname;
-    private String sdate;
-    private String edate;
+public class HolidayData {
+    private String Hname;
+    private String Sdate;
+    private String Edate;
+    private String Hdiscription;
 
     public HolidayData() {
-
     }
 
-    public String getPname() {
-        return pname;
+    public String getHdiscription() {
+        return Hdiscription;
     }
 
-    public void setPname(String pname) {
-        this.pname = pname;
+    public void setHdiscription(String hdiscription) {
+        Hdiscription = hdiscription;
+    }
+
+    public String getHname() {
+        return Hname;
+    }
+
+    public void setHname(String hname) {
+        Hname = hname;
     }
 
     public String getSdate() {
-        return sdate;
+        return Sdate;
     }
 
     public void setSdate(String sdate) {
-        this.sdate = sdate;
+        Sdate = sdate;
     }
 
     public String getEdate() {
-        return edate;
+        return Edate;
     }
 
     public void setEdate(String edate) {
-        this.edate = edate;
+        Edate = edate;
     }
+
+    public String toString() {
+        return this.Hname + "\n"+Sdate+"\n"+Edate+"\n"+Hdiscription;
+    }
+
 }

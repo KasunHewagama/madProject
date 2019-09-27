@@ -35,7 +35,7 @@
     </LinearLayout>
 
     <Button
-        android:id="@+id/addBtn"
+        android:id="@+id/btnupdate"
         android:layout_width="138dp"
         android:layout_height="56dp"
         android:layout_marginStart="8dp"
@@ -86,7 +86,7 @@
         app:layout_constraintVertical_bias="0.829" />
 
     <Button
-        android:id="@+id/btnclrA"
+        android:id="@+id/btndel"
         android:layout_width="144dp"
         android:layout_height="56dp"
         android:layout_marginStart="200dp"

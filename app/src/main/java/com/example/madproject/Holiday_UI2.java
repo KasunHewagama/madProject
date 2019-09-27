@@ -35,6 +35,7 @@ public class Holiday_UI2 extends AppCompatActivity implements View.OnClickListen
         pname.setText("");
         mTv1.setText("");
         mTv2.setText("");
+        pdiscription.setText("");
 
     }
 
@@ -45,16 +46,16 @@ public class Holiday_UI2 extends AppCompatActivity implements View.OnClickListen
         setContentView(R.layout.activity_holiday__ui2);
 
 
-       // pname = findViewById(R.id.Ipname);
+        pname = findViewById(R.id.Ipname);
         mTv1 = (TextView) findViewById(R.id.Isdate);
         mTv2 = (TextView) findViewById(R.id.Iedate);
-        //pdiscription= (EditText) findViewById(R.id.Idiscription2);
+        pdiscription= (EditText) findViewById(R.id.udis);
 
 
         mBtn1 = (Button) findViewById(R.id.calpic);
         mBtn2 = (Button) findViewById(R.id.enddate);
-       // maddBtn = findViewById(R.id.btnadd);
-        //mclearBtn=findViewById(R.id.btnclear);
+        maddBtn = findViewById(R.id.Hbtnadd);
+        mclearBtn=findViewById(R.id.Hbtnclear);
         holidayData = new HolidayData();
         //maddBtn = (Button) findViewById(R.id.btnadd);
         mBtn1.setOnClickListener(new View.OnClickListener() {
@@ -98,7 +99,7 @@ public class Holiday_UI2 extends AppCompatActivity implements View.OnClickListen
                 String Text1=pname.getText().toString();
                 String Text2=mTv1.getText().toString();
                 String Text3=mTv2.getText().toString();
-              //  String Text4=pdiscription.getText().toString();
+                String Text4=pdiscription.getText().toString();
 
                 if (Text1.isEmpty())
                     Toast.makeText(getApplicationContext(),"Planname is Already Empty",Toast.LENGTH_SHORT).show();
@@ -115,11 +116,11 @@ public class Holiday_UI2 extends AppCompatActivity implements View.OnClickListen
                 else{
                     mTv2.setText("");
                 }
-                //if (Text4.isEmpty())
-                  //  Toast.makeText(getApplicationContext(),"Discription is already empty",Toast.LENGTH_SHORT).show();
-                //else{
-                  //  pdiscription.setText("");
-                //}
+                if (Text4.isEmpty())
+                    Toast.makeText(getApplicationContext(),"Discription is already empty",Toast.LENGTH_SHORT).show();
+                else{
+                    pdiscription.setText("");
+                }
             }
         });
 
@@ -135,16 +136,19 @@ public class Holiday_UI2 extends AppCompatActivity implements View.OnClickListen
                 Toast.makeText(getApplicationContext(),"Please select a starting date",Toast.LENGTH_SHORT).show();
             else if (TextUtils.isEmpty(mTv2.getText().toString()))
                 Toast.makeText(getApplicationContext(),"Please select ending date",Toast.LENGTH_SHORT).show();
+            else if(TextUtils.isEmpty(pdiscription.getText().toString()))
+                Toast.makeText(getApplicationContext(),"Please enter a discription",Toast.LENGTH_LONG).show();
             //else if (TextUtils.isEmpty(pdiscription.getText().toString()))
                 //Toast.makeText(getApplicationContext(),"Please Write a discription about your plan",Toast.LENGTH_SHORT).show();
             else {
-                holidayData.setPname(pname.getText().toString().trim());
+                //holidayData.setHname(pname.getText().toString().trim());
+                holidayData.setHname(pname.getText().toString().trim());
                 holidayData.setSdate(mTv1.getText().toString().trim());
                 holidayData.setEdate(mTv2.getText().toString().trim());
-                //holidayData.setHdiscription(pdiscription.getText().toString().trim());
+                holidayData.setHdiscription(pdiscription.getText().toString().trim());
 
-                HDBRef.push().setValue(holidayData);
-
+              //  HDBRef.push().setValue(holidayData);
+                HDBRef.child(pname.getText().toString()).setValue(holidayData);
                 Toast.makeText(getApplicationContext(),"Data Saved Successfully",Toast.LENGTH_SHORT).show();
                 HclearCotrols();
             }
