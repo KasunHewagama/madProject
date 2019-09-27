@@ -131,6 +131,10 @@
     <string name="hintdist">Enter a Distance</string>
     <string name="addbtn">ADD</string>
     <string name="holidayplan">Holiday Planinig</string>
+    <string name="Search">SEARCH</string>
+    <string name="sbtn">SEARCH</string>
+    <string name="dis">DISCRIPTION</string>
+    <string name="Dis">Discription</string>
 
     <string name="starttime">*</string>
     <string name="endtimea">*</string>

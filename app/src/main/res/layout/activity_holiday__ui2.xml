@@ -2,44 +2,13 @@
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/PLAN"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".Holiday_UI2">
 
-    <TextView
-        android:id="@+id/textView17"
-        android:layout_width="188dp"
-        android:layout_height="44dp"
-        android:layout_marginStart="4dp"
-        android:layout_marginTop="8dp"
-        android:layout_marginEnd="8dp"
-        android:layout_marginBottom="8dp"
-        android:text="@string/input1"
-        android:textSize="25sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toStartOf="@+id/Ipname"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.249"
-        tools:text="@string/input1" />
-
-    <EditText
-        android:id="@+id/Ipname"
-        android:layout_width="180dp"
-        android:layout_height="42dp"
-        android:layout_marginTop="8dp"
-        android:layout_marginEnd="8dp"
-        android:layout_marginBottom="8dp"
-        android:ems="10"
-        android:inputType="textPersonName"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.251" />
-
     <Button
-        android:id="@+id/btnadd"
+        android:id="@+id/Hbtnadd"
         android:layout_width="152dp"
         android:layout_height="41dp"
         android:layout_marginStart="8dp"
@@ -60,7 +29,7 @@
         app:layout_constraintVertical_bias="0.951" />
 
     <Button
-        android:id="@+id/btnclear"
+        android:id="@+id/Hbtnclear"
         android:layout_width="144dp"
         android:layout_height="43dp"
         android:layout_marginStart="8dp"
@@ -75,6 +44,66 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.648" />
+
+    <Button
+        android:id="@+id/calpic"
+        android:layout_width="204dp"
+        android:layout_height="55dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
+        android:text="@string/CAL"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/linearLayout13"
+        app:layout_constraintVertical_bias="0.356" />
+
+    <Button
+        android:id="@+id/enddate"
+        android:layout_width="207dp"
+        android:layout_height="54dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        android:text="@string/enddate"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/Iedate"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/linearLayout13"
+        app:layout_constraintVertical_bias="0.454" />
+
+    <EditText
+        android:id="@+id/Ipname"
+        android:layout_width="180dp"
+        android:layout_height="42dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.251" />
+
+    <EditText
+        android:id="@+id/udis"
+        android:layout_width="206dp"
+        android:layout_height="150dp"
+        android:layout_marginEnd="44dp"
+        android:ems="10"
+        android:hint="@string/Dis"
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.636" />
 
     <LinearLayout
         android:id="@+id/linearLayout13"
@@ -105,19 +134,23 @@
             android:textStyle="normal|bold" />
     </LinearLayout>
 
-    <Button
-        android:id="@+id/calpic"
-        android:layout_width="204dp"
-        android:layout_height="55dp"
-        android:layout_marginStart="8dp"
+    <TextView
+        android:id="@+id/textView17"
+        android:layout_width="188dp"
+        android:layout_height="44dp"
+        android:layout_marginStart="4dp"
         android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
         android:layout_marginBottom="8dp"
-        android:text="@string/CAL"
-        android:textSize="18sp"
+        android:text="@string/input1"
+        android:textSize="25sp"
         app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/Ipname"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/linearLayout13"
-        app:layout_constraintVertical_bias="0.356" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.249"
+        tools:text="@string/input1" />
 
     <TextView
         android:id="@+id/Isdate"
@@ -135,23 +168,6 @@
         app:layout_constraintTop_toBottomOf="@+id/linearLayout13"
         app:layout_constraintVertical_bias="0.228" />
 
-    <Button
-        android:id="@+id/enddate"
-        android:layout_width="207dp"
-        android:layout_height="54dp"
-        android:layout_marginStart="8dp"
-        android:layout_marginTop="8dp"
-        android:layout_marginEnd="8dp"
-        android:layout_marginBottom="8dp"
-        android:text="@string/enddate"
-        android:textSize="18sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toStartOf="@+id/Iedate"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/linearLayout13"
-        app:layout_constraintVertical_bias="0.454" />
-
     <TextView
         android:id="@+id/Iedate"
         android:layout_width="169dp"
@@ -163,6 +179,18 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="@+id/linearLayout13"
         app:layout_constraintVertical_bias="0.462" />
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="131dp"
+        android:layout_height="47dp"
+        android:text="@string/dis"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.057"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.57" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
