@@ -18,6 +18,7 @@
         <activity android:name=".addcoursehomepage" />
         <activity android:name=".newaddcourseview" />
         <activity android:name=".profile" />
+        <activity android:name=".feedcom" />
         <activity android:name=".findfriends" />
         <activity android:name=".signup" />
         <activity android:name=".loginact" />

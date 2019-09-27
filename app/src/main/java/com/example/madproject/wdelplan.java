@@ -30,7 +30,8 @@ public class wdelplan  extends Application {
 
 
 
-    ///////////////////////////
+    ///////////////////////////Func Holiday
+
     public ArrayList<String> Harrlist=new ArrayList<>();
     public ArrayAdapter<String> Harradp;
     public String gvalue_hname;
@@ -58,5 +59,28 @@ public class wdelplan  extends Application {
 
     public void setHarrlist(ArrayList<String> harrlist) {
         Harrlist = harrlist;
+    }
+
+    /////////////////////////Func Community
+
+    public ArrayList<String> Carrylist = new ArrayList<>();
+    public ArrayAdapter<String> Carradp;
+    public String gvalue_title;
+    public String getGvalue_Description;
+
+    public String getGvalue_title() {
+        return gvalue_title;
+    }
+
+    public void setGvalue_title(String gvalue_title) {
+        this.gvalue_title = gvalue_title;
+    }
+
+    public String getGetGvalue_Description() {
+        return getGvalue_Description;
+    }
+
+    public void setGetGvalue_Description(String getGvalue_Description) {
+        this.getGvalue_Description = getGvalue_Description;
     }
 }

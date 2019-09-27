@@ -9,18 +9,18 @@ import android.view.View;
 
 public class Community extends AppCompatActivity implements View.OnClickListener{
 
-    private CardView find,share,feed;
+    private CardView share,feed;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_community);
 
-        find = (CardView)findViewById(R.id.cardId5);
+        //find = (CardView)findViewById(R.id.cardId5);
         share = (CardView)findViewById(R.id.cardId6);
         feed = (CardView)findViewById(R.id.cardId7);
 
 
-        find.setOnClickListener(this);
+       // find.setOnClickListener(this);
         share.setOnClickListener(this);
         feed.setOnClickListener(this);
     }
@@ -32,9 +32,9 @@ public class Community extends AppCompatActivity implements View.OnClickListener
 
         switch (view.getId())
         {
-            case R.id.cardId5:i=new Intent(this,findfriends.class);startActivity(i);break;
+            //case R.id.cardId5:i=new Intent(this,findfriends.class);startActivity(i);break;
             case R.id.cardId6:i=new Intent(this,shareactivity.class);startActivity(i);break;
-           // case R.id.cardId7:i=new Intent(this,feedcom.class);startActivity(i);break;
+           case R.id.cardId7:i=new Intent(this,feedcom.class);startActivity(i);break;
 
             default:break;
         }

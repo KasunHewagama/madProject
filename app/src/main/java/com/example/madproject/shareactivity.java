@@ -47,7 +47,8 @@ public class shareactivity extends AppCompatActivity {
 
                         cmp.setTitle(title.getText().toString().trim());
                         cmp.setDescription(desc.getText().toString().trim());
-                        dbRef.push().setValue(cmp);
+                        //dbRef.push().setValue(cmp);
+                        dbRef.child(title.getText().toString()).setValue(cmp);
 
                         Toast.makeText(getApplicationContext(),"Data Saved Successfully",Toast.LENGTH_SHORT).show();
                         clearControls();

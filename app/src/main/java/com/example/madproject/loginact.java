@@ -27,7 +27,7 @@ public class loginact extends AppCompatActivity{
     private EditText logingEmail;
     private EditText logingPass;
     private TextView signup;
-    private Button bt,logingbtn,crtBtn,logout;
+    private Button logingbtn,crtBtn,logout;
     private ProgressBar logbar;
     private FirebaseAuth mAuth;
     @Override
@@ -39,7 +39,7 @@ public class loginact extends AppCompatActivity{
 
         logingEmail =(EditText) findViewById(R.id.editText5);
         logingPass =(EditText) findViewById(R.id.editText6);
-         bt = (Button)findViewById(R.id.button17) ;
+
         logingbtn=(Button)findViewById(R.id.button9);
 
         logbar=(ProgressBar)findViewById(R.id.progressBarlog) ;
@@ -60,7 +60,6 @@ public class loginact extends AppCompatActivity{
                         @Override
                         public void onComplete(@NonNull Task<AuthResult> task) {
                            if(task.isSuccessful()){
-
 
 
 
