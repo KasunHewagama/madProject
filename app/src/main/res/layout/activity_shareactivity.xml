@@ -9,8 +9,8 @@
 
     <LinearLayout
         android:id="@+id/linearLayout8"
-        android:layout_width="410dp"
-        android:layout_height="134dp"
+        android:layout_width="418dp"
+        android:layout_height="138dp"
         android:background="@drawable/sharepage"
         android:orientation="horizontal"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -52,39 +52,18 @@
         app:layout_constraintVertical_bias="0.916">
 
         <androidx.cardview.widget.CardView
-            android:layout_width="361dp"
-            android:layout_height="609dp"
+            android:layout_width="354dp"
+            android:layout_height="562dp"
             app:cardCornerRadius="20dp">
 
-            <TextView
-                android:id="@+id/textView26"
-                android:layout_width="152dp"
-                android:layout_height="43dp"
-                android:layout_marginStart="20sp"
-                android:layout_marginTop="40sp"
-                android:fontFamily="sans-serif"
-                android:text="Title"
-                android:textSize="18sp"
-                android:textStyle="normal|bold" />
-
-            <EditText
-                android:id="@+id/editText9"
-                android:layout_width="308dp"
-                android:layout_height="63dp"
-                android:layout_marginStart="20sp"
-                android:layout_marginTop="70sp"
-                android:ems="10"
-                android:inputType="textPersonName" />
-
-            <TextView
-                android:id="@+id/textView28"
-                android:layout_width="wrap_content"
+            <Button
+                android:id="@+id/button13"
+                android:layout_width="204dp"
                 android:layout_height="wrap_content"
-                android:layout_marginStart="20dp"
-                android:layout_marginTop="150dp"
-                android:text="Description"
-                android:textSize="18sp"
-                android:textStyle="normal|bold" />
+                android:layout_marginStart="30dp"
+                android:layout_marginTop="360dp"
+                android:background="#304FFE"
+                android:text="@string/shareact" />
 
             <EditText
                 android:id="@+id/editText16"
@@ -100,52 +79,44 @@
                 android:textAlignment="viewStart"
                 android:textSize="14sp" />
 
-            <TextView
-                android:id="@+id/textView29"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginStart="20dp"
-                android:layout_marginTop="330dp"
-                android:text="Attachments"
-                android:textSize="18sp"
-                android:textStyle="normal|bold" />
-
             <EditText
-                android:id="@+id/editText17"
-                android:layout_width="318dp"
-                android:layout_height="38dp"
-                android:layout_marginStart="20dp"
-                android:layout_marginTop="370dp"
-                android:background="#ECE8EC"
+                android:id="@+id/editText9"
+                android:layout_width="308dp"
+                android:layout_height="63dp"
+                android:layout_marginStart="20sp"
+                android:layout_marginTop="70sp"
                 android:ems="10"
                 android:inputType="textPersonName" />
 
-            <ImageButton
-                android:id="@+id/imageButton2"
-                android:layout_width="47dp"
-                android:layout_height="37dp"
-                android:layout_marginStart="20dp"
-                android:layout_marginTop="420dp"
-                android:scaleType="fitCenter"
-                app:srcCompat="@drawable/attach" />
+            <TextView
+                android:id="@+id/textView26"
+                android:layout_width="152dp"
+                android:layout_height="43dp"
+                android:layout_marginStart="20sp"
+                android:layout_marginTop="40sp"
+                android:fontFamily="sans-serif"
+                android:text="Title"
+                android:textSize="18sp"
+                android:textStyle="normal|bold" />
 
-            <ImageButton
-                android:id="@+id/imageButton3"
-                android:layout_width="51dp"
-                android:layout_height="37dp"
-                android:layout_marginStart="70dp"
-                android:layout_marginTop="420dp"
-                android:scaleType="fitCenter"
-                app:srcCompat="@drawable/addbtn" />
+            <TextView
+                android:id="@+id/textView28"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="150dp"
+                android:text="Description"
+                android:textSize="18sp"
+                android:textStyle="normal|bold" />
 
             <Button
-                android:id="@+id/button13"
-                android:layout_width="288dp"
+                android:id="@+id/button"
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginStart="40dp"
-                android:layout_marginTop="480dp"
-                android:background="#304FFE"
-                android:text="@string/shareact" />
+                android:layout_marginStart="245dp"
+                android:layout_marginTop="360dp"
+                android:background="#BB0303"
+                android:text="clear" />
         </androidx.cardview.widget.CardView>
     </LinearLayout>
 

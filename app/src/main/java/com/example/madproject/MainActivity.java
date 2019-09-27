@@ -3,13 +3,11 @@ package com.example.madproject;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.cardview.widget.CardView;
 import androidx.gridlayout.widget.GridLayout;
-
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.Switch;
-
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
 
@@ -18,7 +16,7 @@ public class MainActivity extends AppCompatActivity implements  View.OnClickList
 
 
     private CardView work,holiday,timetable,community;
-    private Button login;
+    private Button login,logout;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -29,6 +27,7 @@ public class MainActivity extends AppCompatActivity implements  View.OnClickList
         timetable=(CardView)findViewById(R.id.cardId3);
         community=(CardView)findViewById(R.id.cardId4);
         login=(Button)findViewById(R.id.button3);
+        logout=(Button)findViewById(R.id.button18);
         work.setOnClickListener(this);
         holiday.setOnClickListener(this);
         timetable.setOnClickListener(this);
@@ -52,6 +51,11 @@ public class MainActivity extends AppCompatActivity implements  View.OnClickList
 
             case R.id.button3 : i=new Intent(this,loginact.class);startActivity(i);break;
 
+            case R.id.button18: FirebaseAuth.getInstance().signOut();
+                                finish();
+                                i=new Intent(this,loginact.class);
+                                startActivity(i);
+
             default:break;
         }
 
@@ -62,10 +66,14 @@ public class MainActivity extends AppCompatActivity implements  View.OnClickList
         super.onStart();
         FirebaseUser user = FirebaseAuth.getInstance().getCurrentUser();
         if (user == null) {
-            Intent intent = new Intent(MainActivity.this,loginact.class);
+            /*Intent intent = new Intent(MainActivity.this,loginact.class);
             startActivity(intent);
-            finish();
-        } else {
+            finish();*/
+            logout.setVisibility(View.INVISIBLE);
+            login.setVisibility(View.VISIBLE);
+        } else{
+            logout.setVisibility(View.VISIBLE);
+            login.setVisibility(View.INVISIBLE);
             // No user is signed in
         }
     }
