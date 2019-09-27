@@ -83,4 +83,29 @@ public class wdelplan  extends Application {
     public void setGetGvalue_Description(String getGvalue_Description) {
         this.getGvalue_Description = getGvalue_Description;
     }
+
+
+    //////////////////////////////////////////////////////////////////////////////////////Timetable
+    public ArrayList<String> lv1 = new ArrayList<>();
+    public ArrayAdapter<String> lv1dp;
+    public String  gval_subject;
+    public String  gval_teacher;
+
+    public String getGval_subject() {
+        return gval_subject;
+    }
+
+    public void setGval_subject(String gval_subject) {
+        this.gval_subject = gval_subject;
+    }
+
+    public String getGval_teacher() {
+        return gval_teacher;
+    }
+
+    public void setGval_teacher(String gval_teacher) {
+        this.gval_teacher = gval_teacher;
+    }
 }
+
+

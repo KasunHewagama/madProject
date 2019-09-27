@@ -15,7 +15,7 @@ public class newaddresults extends AppCompatActivity {
         setContentView(R.layout.activity_newaddresults);
     }
     public  void study (View view){
-        Intent studyintent = new Intent(Intent.ACTION_VIEW, Uri.EMPTY.parse("https://www.google.lk"));
+        Intent studyintent = new Intent(Intent.ACTION_VIEW, Uri.EMPTY.parse("http://study.sliit.lk/"));
         startActivity(studyintent);
     }
 }
