@@ -63,3 +63,6 @@ public class addcoursemodel {
         return this.subject+" \n "+teacher+" \n "+place+" \n "+date;
     }
 }
+
+//pamod
+//madhusha
