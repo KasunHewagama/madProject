@@ -36,7 +36,7 @@
         <activity android:name=".runningHomepage" />
         <activity android:name=".walkingHomepage" />
         <activity android:name=".workoutHomepage" />
-        <!--<activity
+        <activity
             android:name=".MainActivity"
             android:screenOrientation="portrait">
             <intent-filter>
@@ -44,7 +44,7 @@
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
-        </activity>-->
+        </activity>
     </application>
 
 </manifest>
