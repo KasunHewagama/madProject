@@ -2,14 +2,48 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.madproject">
 
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+
     <application
+        android:name=".wdelplan"
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".MainActivity">
+        <activity android:name=".newaddexamview"></activity>
+        <activity android:name=".newaddexamhomepage" />
+        <activity android:name=".addcoursehomepage" />
+        <activity android:name=".newaddcourseview" />
+        <activity android:name=".profile" />
+        <activity android:name=".feedcom" />
+        <activity android:name=".findfriends" />
+        <activity android:name=".signup" />
+        <activity android:name=".loginact" />
+        <activity android:name=".donnedWorkout" />
+        <activity android:name=".addView" />
+        <activity android:name=".shareactivity" />
+        <activity android:name=".newaddresults" />
+        <activity android:name=".addPlan" />
+        <activity android:name=".Holiday_UI5" /> <!-- <activity android:name=".newaddresults" /> -->
+        <activity android:name=".newaddcourse" />
+        <activity android:name=".newaddexam" />
+        <activity android:name=".timetable" />
+        <activity android:name=".Community" />
+        <activity android:name=".Holiday_UI4" />
+        <activity android:name=".Holiday_UI3" />
+        <activity android:name=".Holiday_UI2" />
+        <activity android:name=".Holiday_UI1" />
+        <activity android:name=".cyclingHomepage" />
+        <activity android:name=".swimmingHomepage" />
+        <activity android:name=".runningHomepage" />
+        <activity android:name=".walkingHomepage" />
+        <activity android:name=".workoutHomepage" />
+        <activity
+            android:name=".MainActivity"
+            android:screenOrientation="portrait">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
